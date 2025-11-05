@@ -380,21 +380,21 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Collapsible functionality
-  const toggles = document.querySelectorAll('.collapsible-method__toggle');
-  toggles.forEach(toggle => {
-    toggle.addEventListener('click', function() {
-      const content = this.nextElementSibling;
-      const icon = this.querySelector('.collapsible-method__icon');
-      
-      if (content.style.display === 'block') {
-        content.style.display = 'none';
-        icon.style.transform = 'rotate(0deg)';
-      } else {
-        content.style.display = 'block';
-        icon.style.transform = 'rotate(180deg)';
-      }
-    });
+  // Collapsible functionality (robust with event delegation)
+  document.addEventListener('click', function(e) {
+    const toggle = e.target.closest('.collapsible-method__toggle');
+    if (!toggle) return;
+
+    const content = toggle.nextElementSibling;
+    const icon = toggle.querySelector('.collapsible-method__icon');
+    if (!content) return;
+
+    const isOpen = content.classList.toggle('is-open');
+    if (icon) {
+      icon.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+    }
+    // Accessibility
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   });
 
   // Video button functionality
