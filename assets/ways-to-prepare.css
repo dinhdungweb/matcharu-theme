@@ -761,6 +761,7 @@
   cursor: pointer;
   border-radius: 6px;
   padding: 6px;
+  z-index: 99;
 }
 
 .video-modal__content {
