@@ -379,7 +379,8 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+  function init() {
   // Collapsible functionality (robust with event delegation)
   document.addEventListener('click', function(e) {
     const toggle = e.target.closest('.collapsible-method__toggle');
@@ -393,6 +394,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (icon) {
       icon.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0deg)';
     }
+    // Ensure inline style for maximum compatibility
+    content.style.display = isOpen ? 'block' : 'none';
     // Accessibility
     toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   });
@@ -611,7 +614,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
-});
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 </script>
 
 {% schema %}
