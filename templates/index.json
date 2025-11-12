@@ -12,6 +12,29 @@
     "0c521c75-5d82-4dd6-aecc-f519d8907411": {
       "type": "slideshow",
       "blocks": {
+        "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b": {
+          "type": "slider_item",
+          "settings": {
+            "image": "shopify://shop_images/Shizuoka_-_Satoen_Matcha_Tea_Farm.png",
+            "image_mobile": "shopify://shop_images/Shizuoka_Satoen_Matcha_Tea_Farm.png",
+            "content_box": "content_in_container",
+            "content_custom_width": true,
+            "content_width": 100,
+            "content_background_color": "rgba(0,0,0,0)",
+            "content_opacity": 100,
+            "horizontal_position": "center_position",
+            "vertical_position": "middle_position",
+            "slider_effect": "effect_fadein",
+            "text_alignment": "center",
+            "text_alignment_on_mobile": "center",
+            "subheading": "",
+            "title": "Fresh from Farm",
+            "description": "",
+            "image_link": "shopify://collections/all-products",
+            "button_text": "Shop now",
+            "button_type": "primary"
+          }
+        },
         "template--16567751082231__0c521c75-5d82-4dd6-aecc-f519d8907411-1666406556d8612fa9-0": {
           "type": "slider_item",
           "settings": {
@@ -78,36 +101,13 @@
             "button_text": "Shop now",
             "button_type": "primary"
           }
-        },
-        "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b": {
-          "type": "slider_item",
-          "settings": {
-            "image": "shopify://shop_images/Shizuoka_-_Satoen_Matcha_Tea_Farm.png",
-            "image_mobile": "shopify://shop_images/Shizuoka_Satoen_Matcha_Tea_Farm.png",
-            "content_box": "content_in_container",
-            "content_custom_width": true,
-            "content_width": 100,
-            "content_background_color": "rgba(0,0,0,0)",
-            "content_opacity": 100,
-            "horizontal_position": "center_position",
-            "vertical_position": "middle_position",
-            "slider_effect": "effect_fadein",
-            "text_alignment": "center",
-            "text_alignment_on_mobile": "center",
-            "subheading": "",
-            "title": "Fresh from Farm",
-            "description": "",
-            "image_link": "shopify://collections/all-products",
-            "button_text": "Shop now",
-            "button_type": "primary"
-          }
         }
       },
       "block_order": [
+        "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b",
         "template--16567751082231__0c521c75-5d82-4dd6-aecc-f519d8907411-1666406556d8612fa9-0",
         "4d89f9ff-8153-4b4a-a089-ccb19f702450",
-        "slider_item_Nwi74h",
-        "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b"
+        "slider_item_Nwi74h"
       ],
       "custom_css": [
         "@media (min-width: 1200px) {.strecth-width {--bs-gutter-x: 12rem; }}"
