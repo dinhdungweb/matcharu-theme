@@ -63,7 +63,7 @@
           "type": "slider_item",
           "settings": {
             "image": "shopify://shop_images/Untitled_3840_x_1600_px_3.png",
-            "image_mobile": "shopify://shop_images/Matcharu_Banner_Mobile.png",
+            "image_mobile": "shopify://shop_images/Matcharu_Banner_Mobile_2.png",
             "content_box": "content_in_container_fluid",
             "content_custom_width": true,
             "content_width": 100,
