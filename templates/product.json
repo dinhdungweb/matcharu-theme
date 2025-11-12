@@ -284,21 +284,21 @@
           "type": "collapsible_method",
           "settings": {
             "title": "Usucha (Classic Matcha)",
-            "description": "",
+            "description": "Usucha Matcha: A popular, smooth, and frothy brew. This thin preparation highlights matcha's fresh flavor, perfect for daily enjoyment or informal tea ceremonies.",
             "content": "",
             "show_steps": true,
-            "step1_title": "Sift matcha",
-            "step1_details": "",
-            "step1_description": "2 g (0.07 oz) - 1.5 heaping tea ladles or 1 level teaspoon.",
-            "step1_image": "shopify://shop_images/Main_remake_43.png",
-            "step2_title": "Add hot water",
-            "step2_details": "",
-            "step2_description": "60 mL (2 oz) 80°C (176°F) - Pour boiling water into a teacup to cool it to 80°C, then pour into tea bowl.",
-            "step2_image": "shopify://shop_images/Main_remake_42.png",
-            "step3_title": "Whisk",
-            "step3_details": "",
-            "step3_description": "15 seconds - Whisk vigorously 15 seconds, making an \"M\" shape.",
-            "step3_image": "shopify://shop_images/Main_remake_45.png",
+            "step1_title": "Warm up your tea bowl (Chawan) and whisk (Chasen)",
+            "step1_details": "Warm your chasen and matcha bowl by pouring hot water into the bowl and soaking the whisk for 3 minutes to soften it.",
+            "step1_description": "Warming your matcha bowl and whisk (chasen) will help keep the bowl warm to maintain the ideal water temperature of 70-80°C during preparation, and it will also soften the whisk for better frothing.",
+            "step1_image": "shopify://shop_images/Matcha_tools_Warm-up.png",
+            "step2_title": "Sift Matcha",
+            "step2_details": "Sift 1.5 - 2g of matcha directly into your warmed bowl for a perfectly smooth, airy powder.",
+            "step2_description": "",
+            "step2_image": "shopify://shop_images/Matcha_Sift.png",
+            "step3_title": "Pour Hot Water and Whisk",
+            "step3_details": "Pour 70 ml of hot water at around 175°F (70–80°C) into the bowl, then whisk the matcha.",
+            "step3_description": "Whisk quickly for about 20 seconds in a zigzag 'M' or 'W' motion until a fine, creamy foam forms on top.",
+            "step3_image": "shopify://shop_images/Whisk_Matcha.png",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/ac42db764d3e4019bb67ba9fe2f64996.mp4",
             "video_text": "Play video"
           }
@@ -405,6 +405,7 @@
         },
         "collapsible-method-6": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Matcha Bubble Tea",
             "description": "Fun and trendy matcha drink with chewy tapioca pearls.",
@@ -425,6 +426,7 @@
         },
         "collapsible-method-7": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Matcha Smoothie",
             "description": "Nutritious and energizing matcha smoothie perfect for breakfast.",
@@ -445,6 +447,7 @@
         },
         "collapsible-method-8": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Traditional Tea Ceremony",
             "description": "Authentic Japanese tea ceremony preparation with proper etiquette.",
