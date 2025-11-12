@@ -12,6 +12,30 @@
     "0c521c75-5d82-4dd6-aecc-f519d8907411": {
       "type": "slideshow",
       "blocks": {
+        "slider_item_Nwi74h": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_9.png",
+            "image_mobile": "shopify://shop_images/Untitled_design_9.png",
+            "content_box": "content_in_container",
+            "content_custom_width": true,
+            "content_width": 50,
+            "content_background_color": "",
+            "content_opacity": 100,
+            "horizontal_position": "left_position",
+            "vertical_position": "middle_position",
+            "slider_effect": "effect_fadeindown",
+            "text_alignment": "center",
+            "text_alignment_on_mobile": "center",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "description": "<p>Description</p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_type": "primary"
+          }
+        },
         "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b": {
           "type": "slider_item",
           "settings": {
@@ -39,7 +63,7 @@
           "type": "slider_item",
           "settings": {
             "image": "shopify://shop_images/Untitled_3840_x_1600_px_3.png",
-            "image_mobile": "shopify://shop_images/Untitled_design_10.png",
+            "image_mobile": "shopify://shop_images/Matcharu_Banner_Phone.png",
             "content_box": "content_in_container_fluid",
             "content_custom_width": true,
             "content_width": 100,
@@ -80,34 +104,13 @@
             "button_text": "Shop Now",
             "button_type": "primary"
           }
-        },
-        "slider_item_Nwi74h": {
-          "type": "slider_item",
-          "settings": {
-            "content_box": "content_in_container",
-            "content_custom_width": true,
-            "content_width": 50,
-            "content_background_color": "",
-            "content_opacity": 100,
-            "horizontal_position": "left_position",
-            "vertical_position": "middle_position",
-            "slider_effect": "effect_fadeindown",
-            "text_alignment": "center",
-            "text_alignment_on_mobile": "center",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "description": "<p>Description</p>",
-            "image_link": "",
-            "button_text": "Shop now",
-            "button_type": "primary"
-          }
         }
       },
       "block_order": [
+        "slider_item_Nwi74h",
         "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b",
         "template--16567751082231__0c521c75-5d82-4dd6-aecc-f519d8907411-1666406556d8612fa9-0",
-        "4d89f9ff-8153-4b4a-a089-ccb19f702450",
-        "slider_item_Nwi74h"
+        "4d89f9ff-8153-4b4a-a089-ccb19f702450"
       ],
       "custom_css": [
         "@media (min-width: 1200px) {.strecth-width {--bs-gutter-x: 12rem; }}"
