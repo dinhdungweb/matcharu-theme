@@ -349,28 +349,9 @@
             "video_text": "Play video"
           }
         },
-        "collapsible-method-3": {
-          "type": "collapsible_method",
-          "settings": {
-            "title": "Iced Matcha",
-            "description": "Refreshing cold preparation perfect for summer.",
-            "content": "<p>Prepare usucha with cold water, add ice cubes, and serve immediately. Can be sweetened with simple syrup.</p>",
-            "show_steps": false,
-            "step1_title": "",
-            "step1_details": "",
-            "step1_description": "",
-            "step2_title": "",
-            "step2_details": "",
-            "step2_description": "",
-            "step3_title": "",
-            "step3_details": "",
-            "step3_description": "",
-            "video_url": "",
-            "video_text": "Play video"
-          }
-        },
         "collapsible-method-4": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Iced Matcha Latte",
             "description": "Cold version of the popular matcha latte.",
@@ -391,6 +372,7 @@
         },
         "collapsible-method-5": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Cold-Whisked Matcha",
             "description": "Traditional preparation using only cold water.",
@@ -477,7 +459,6 @@
         "collapsible-method-0",
         "collapsible-method-1",
         "collapsible-method-2",
-        "collapsible-method-3",
         "collapsible-method-4",
         "collapsible-method-5",
         "collapsible-method-6",
