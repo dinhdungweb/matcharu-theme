@@ -272,28 +272,29 @@
         "collapsible-method-0": {
           "type": "collapsible_method",
           "settings": {
-            "title": "Usucha (Classic Matcha)",
-            "description": "Usucha Matcha: A popular, smooth, and frothy brew. This thin preparation highlights matcha's fresh flavor, perfect for daily enjoyment or informal tea ceremonies.",
+            "title": "Hojicha Latte",
+            "description": "A delicious alternative to Matcha Latte, Hojicha Latte is made by blending roasted Hojicha powder with milk to create a smooth, aromatic, and deeply nutty drink. With subtle chocolate notes and a naturally low-caffeine profile, it offers a warm, nutritious, and flavorful experience—perfect for anyone seeking a soothing twist on traditional tea lattes.",
             "content": "",
             "show_steps": true,
-            "step1_title": "Warm up your tea bowl (Chawan) and whisk (Chasen)",
+            "step1_title": "Sift and Whisk Hojicha",
             "step1_details": "",
-            "step1_description": "Warming your matcha bowl and whisk (chasen) for 3 mins will help keep the bowl warm to maintain the ideal water temperature of 70-80°C during preparation, and it will also soften the whisk for better frothing.",
-            "step1_image": "shopify://shop_images/Matcha_tools_Warm-up.png",
-            "step2_title": "Sift Matcha",
+            "step1_description": "Sift Hojicha Powder and whisk the powder with a small amount of hot water (70–80°C / 158–176°F) until smooth.",
+            "step1_image": "shopify://shop_images/Step_1_to_make_Hojicha_Latte.png",
+            "step2_title": "Add steamed milk",
             "step2_details": "",
-            "step2_description": "Sift 1.5 - 2g of matcha directly into your warmed bowl for a perfectly smooth, airy powder.",
-            "step2_image": "shopify://shop_images/Matcha_Sift.png",
-            "step3_title": "Pour Hot Water and Whisk",
+            "step2_description": "Pour 200–220ml of steamed milk (or any milk of choice) into the Hojicha mixture.",
+            "step2_image": "shopify://shop_images/Step_2_Hojicha_Latte.png",
+            "step3_title": "Stir and enjoy",
             "step3_details": "",
-            "step3_description": "Pour 70 ml of hot water at around 175°F (70–80°C) into the bowl, then whisk the matcha.\nWhisk quickly for about 20 seconds in a zigzag 'M' or 'W' motion until a fine, creamy foam forms on top.",
-            "step3_image": "shopify://shop_images/Whisk_Matcha.png",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/ac42db764d3e4019bb67ba9fe2f64996.mp4",
-            "video_text": "Play video"
+            "step3_description": "Stir gently, adjust sweetness to taste, and enjoy your warm, nutty Hojicha Latte.",
+            "step3_image": "shopify://shop_images/Step_3_Hojicha_Latte.png",
+            "video_url": "",
+            "video_text": ""
           }
         },
         "collapsible-method-1": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Koicha (Thick Matcha)",
             "description": "A ceremonial, thick-style matcha reserved for the most revered tea rituals. It is designed to celebrate the finest matcha quality and deliver an intense, deeply spiritual tasting experience.",
@@ -317,6 +318,7 @@
         },
         "collapsible-method-2": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Matcha Latte",
             "description": "A comforting, creamy beverage made by combining vibrant, whisked matcha with warm, frothy milk, offering a unique balance of green notes and silky smoothness",
@@ -466,6 +468,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_i9ytxi": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
             "review_data": "sample_data",
             "max_width": 1200,
