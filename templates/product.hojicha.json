@@ -305,6 +305,7 @@
         },
         "collapsible-method-1": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Koicha (Thick Matcha)",
             "description": "A ceremonial, thick-style matcha reserved for the most revered tea rituals. It is designed to celebrate the finest matcha quality and deliver an intense, deeply spiritual tasting experience.",
@@ -328,6 +329,7 @@
         },
         "collapsible-method-2": {
           "type": "collapsible_method",
+          "disabled": true,
           "settings": {
             "title": "Matcha Latte",
             "description": "A comforting, creamy beverage made by combining vibrant, whisked matcha with warm, frothy milk, offering a unique balance of green notes and silky smoothness",
