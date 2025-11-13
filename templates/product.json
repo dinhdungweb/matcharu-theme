@@ -246,7 +246,7 @@
           "settings": {
             "title": "TASTING NOTES",
             "tab_content": "content_custom",
-            "content": "{{ product.metafields.custom.tasting_note | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         }
