@@ -246,25 +246,14 @@
           "settings": {
             "title": "TASTING NOTES",
             "tab_content": "content_custom",
-            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}  </p>",
-            "page": ""
-          }
-        },
-        "cc1f49b6-1977-4f1f-9ab8-719556bd5832": {
-          "type": "custom_tab",
-          "disabled": true,
-          "settings": {
-            "title": "HOW TO USE",
-            "tab_content": "content_custom",
-            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.tasting_note | metafield_tag }}",
             "page": ""
           }
         }
       },
       "block_order": [
         "5ff6a4f5-c591-4a3f-bb68-b1efa1c91ab5",
-        "de7d437d-d088-49b0-9426-0e78b2a44fd7",
-        "cc1f49b6-1977-4f1f-9ab8-719556bd5832"
+        "de7d437d-d088-49b0-9426-0e78b2a44fd7"
       ],
       "settings": {
         "container": "container",
