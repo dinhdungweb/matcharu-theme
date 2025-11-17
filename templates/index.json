@@ -391,7 +391,7 @@
         "limit_products": 15,
         "item_desktop": 4,
         "column_gap": 20,
-        "item_mobile": true,
+        "item_mobile": false,
         "carousel_autoplay": false,
         "carousel_loop": false,
         "carousel_arrows": true,
@@ -673,6 +673,7 @@
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3",
         "43613cf8-742d-4e08-be8d-aefba5ec619c"
       ],
+      "disabled": true,
       "settings": {
         "heading_logo_svg": "",
         "heading": "What People Are Saying",
@@ -687,12 +688,12 @@
         "img_view": "default",
         "img_position": "position-left",
         "car_gap": 20,
-        "carousel_item_desktop": 4,
+        "carousel_item_desktop": 3,
         "autoplay": false,
         "loop": false,
         "show_arrow": false,
-        "reveal_on_scroll": false,
-        "pagination_style": "dots",
+        "reveal_on_scroll": true,
+        "pagination_style": "progressbar",
         "padding_top": 0,
         "padding_bottom": 0,
         "reset_spacing": false
