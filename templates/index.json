@@ -391,7 +391,7 @@
         "limit_products": 15,
         "item_desktop": 4,
         "column_gap": 20,
-        "item_mobile": false,
+        "item_mobile": true,
         "carousel_autoplay": false,
         "carousel_loop": false,
         "carousel_arrows": true,
