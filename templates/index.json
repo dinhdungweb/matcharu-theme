@@ -781,6 +781,18 @@
             "logo": "shopify://shop_images/Untitled_design_10.png"
           }
         },
+        "testimonials_wqJ3A6": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": " Great Flavor",
+            "description": "<p>Beautiful green coloring. Mixes perfectly. Nice, rich earthy flavor. Not overly bitter. Perfect for drinking straight or mixing in a latte.<br/></p><p>It's true first harvest (spring harvest) - so it's high in caffeine, theanine, and antioxidants - while still tasting amazing. Exactly what I look for in a great matcha.<br/><br/></p>",
+            "author": "Edgar Z.",
+            "job": "January 28, 2025",
+            "image": "shopify://shop_images/71RRaPaf6yL._SL1600.jpg",
+            "testimonial_width": 60,
+            "logo": "shopify://shop_images/Untitled_design_10.png"
+          }
+        },
         "testimonials_7CDVrL": {
           "type": "testimonials",
           "settings": {
@@ -828,6 +840,7 @@
       },
       "block_order": [
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1",
+        "testimonials_wqJ3A6",
         "testimonials_7CDVrL",
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2",
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3",
