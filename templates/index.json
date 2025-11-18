@@ -618,87 +618,6 @@
         "reset_spacing": false
       }
     },
-    "757a514d-e65e-46da-92da-c981a603af3b": {
-      "type": "testimonial",
-      "blocks": {
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1": {
-          "type": "testimonials",
-          "settings": {
-            "title_text": "High Quality - Careful Packing",
-            "description": "<p>I was able to find everything I needed and found the website very easy to use. Great to be able to order everything I needed from the comfort of my home and the delivery was extremely quick. I would definitely use them again!</p>",
-            "author": "Emily Jones",
-            "job": "Posted on 02/15/2025",
-            "image": "shopify://shop_images/Main_remake_6.png",
-            "testimonial_width": 60,
-            "logo": "shopify://shop_images/Untitled_design_10.png"
-          }
-        },
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2": {
-          "type": "testimonials",
-          "settings": {
-            "title_text": "High Quality - Careful Packing",
-            "description": "<p>Excellent packaging and delivery. Good to have found this site that has affordable price on the herbal products I was looking for and I have ordered in bulk. Thank you! </p>",
-            "author": "Susan Gibson",
-            "job": "Posted on 05/15/2022",
-            "image": "shopify://shop_images/Main_remake_5.png",
-            "testimonial_width": 60
-          }
-        },
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3": {
-          "type": "testimonials",
-          "settings": {
-            "title_text": "High Quality - Careful Packing",
-            "description": "<p>I was able to find everything I needed and found the website very easy to use. Great to be able to order everything I needed from the comfort of my home and the delivery was extremely quick. I would definitely use them again!</p>",
-            "author": "Robert Evans",
-            "job": "Posted on 05/15/2022",
-            "image": "shopify://shop_images/Matcharu_Chasen.png",
-            "testimonial_width": 60
-          }
-        },
-        "43613cf8-742d-4e08-be8d-aefba5ec619c": {
-          "type": "testimonials",
-          "settings": {
-            "title_text": "High Quality - Careful Packing",
-            "description": "<p>It was my first time ordering from this website and everything was great. Fantastic packaging and also good quality items. Highly recommend. Thank you.</p>",
-            "author": "William Taylor",
-            "job": "Posted on 05/15/2022",
-            "image": "shopify://shop_images/CMW100_2.png",
-            "testimonial_width": 60
-          }
-        }
-      },
-      "block_order": [
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1",
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2",
-        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3",
-        "43613cf8-742d-4e08-be8d-aefba5ec619c"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading_logo_svg": "",
-        "heading": "What People Are Saying",
-        "description": "<p>ABSOLUTE SATISFACTION</p>",
-        "text_align": "text-center",
-        "container": "container-fluid",
-        "color_scheme": "scheme-3c512758-fd55-4314-8945-beec6e57aa7a",
-        "content_width": 100,
-        "design": "design_3",
-        "testi_text_size": "smallest",
-        "show_rating": true,
-        "img_view": "default",
-        "img_position": "position-left",
-        "car_gap": 20,
-        "carousel_item_desktop": 3,
-        "autoplay": false,
-        "loop": false,
-        "show_arrow": false,
-        "reveal_on_scroll": true,
-        "pagination_style": "progressbar",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "reset_spacing": false
-      }
-    },
     "50d25b8c-8e76-40ff-9947-d9410583e0fc": {
       "type": "banner-with-text",
       "blocks": {
@@ -847,6 +766,86 @@
         "reset_spacing": false
       }
     },
+    "757a514d-e65e-46da-92da-c981a603af3b": {
+      "type": "testimonial",
+      "blocks": {
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": "Vibrant green, creamy taste",
+            "description": "<p>This is the real deal - Japanese ceremonial (drinking grade) matcha. It's a beautiful vibrant green color, rich in umami and nice and creamy. There is just a hint of natural astringency to round out the flavor profile. It's one of the more well rounded matcha powders I have tried and is a very good value for this flavor profile. It blends up easy and is very fresh, free of clumps.<br/><br/>I like that this is a true direct from Japan matcha. It's the real deal, and the quality and taste live up to the ceremonial grade label.<br/><br/>It's true first harvest (spring harvest) - so it's high in caffeine, theanine, and antioxidants - while still tasting amazing. Exactly what I look for in a great matcha.<br/><br/></p>",
+            "author": "Wesley",
+            "job": "Posted on October 12, 2025",
+            "image": "shopify://shop_images/71CRLREeV4L._SL1600.jpg",
+            "testimonial_width": 60,
+            "logo": "shopify://shop_images/Untitled_design_10.png"
+          }
+        },
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": "High Quality - Careful Packing",
+            "description": "<p>Excellent packaging and delivery. Good to have found this site that has affordable price on the herbal products I was looking for and I have ordered in bulk. Thank you! </p>",
+            "author": "Susan Gibson",
+            "job": "Posted on 05/15/2022",
+            "image": "shopify://shop_images/Main_remake_5.png",
+            "testimonial_width": 60
+          }
+        },
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": "High Quality - Careful Packing",
+            "description": "<p>I was able to find everything I needed and found the website very easy to use. Great to be able to order everything I needed from the comfort of my home and the delivery was extremely quick. I would definitely use them again!</p>",
+            "author": "Robert Evans",
+            "job": "Posted on 05/15/2022",
+            "image": "shopify://shop_images/Matcharu_Chasen.png",
+            "testimonial_width": 60
+          }
+        },
+        "43613cf8-742d-4e08-be8d-aefba5ec619c": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": "High Quality - Careful Packing",
+            "description": "<p>It was my first time ordering from this website and everything was great. Fantastic packaging and also good quality items. Highly recommend. Thank you.</p>",
+            "author": "William Taylor",
+            "job": "Posted on 05/15/2022",
+            "image": "shopify://shop_images/CMW100_2.png",
+            "testimonial_width": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1",
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2",
+        "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3",
+        "43613cf8-742d-4e08-be8d-aefba5ec619c"
+      ],
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "What People Are Saying",
+        "description": "<p>ABSOLUTE SATISFACTION</p>",
+        "text_align": "text-center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-3c512758-fd55-4314-8945-beec6e57aa7a",
+        "content_width": 100,
+        "design": "design_3",
+        "testi_text_size": "smallest",
+        "show_rating": true,
+        "img_view": "default",
+        "img_position": "position-left",
+        "car_gap": 20,
+        "carousel_item_desktop": 3,
+        "autoplay": false,
+        "loop": false,
+        "show_arrow": false,
+        "reveal_on_scroll": true,
+        "pagination_style": "progressbar",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
     "bcc14098-5b7d-489d-bcac-45384a7d8639": {
       "type": "icon-box",
       "blocks": {
@@ -916,9 +915,9 @@
     "71c0977c-a54c-4240-aaf3-811f64745dc5",
     "bf8c8378-d980-4080-aaa3-02e0b1af6969",
     "ef37a47e-d9db-4855-ac05-e04279ad1ca7",
-    "757a514d-e65e-46da-92da-c981a603af3b",
     "50d25b8c-8e76-40ff-9947-d9410583e0fc",
     "blog_posts_YFDnUU",
+    "757a514d-e65e-46da-92da-c981a603af3b",
     "bcc14098-5b7d-489d-bcac-45384a7d8639"
   ]
 }
