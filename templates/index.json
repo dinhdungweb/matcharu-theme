@@ -781,6 +781,17 @@
             "logo": "shopify://shop_images/Untitled_design_10.png"
           }
         },
+        "testimonials_7CDVrL": {
+          "type": "testimonials",
+          "settings": {
+            "title_text": "Perfect Daily Matcha",
+            "description": "<p>This matcha is the perfect daily matcha powder! The flavor stands up to milk wonderfully (i use planet oat unsweetened for my matcha lattes) and it makes a STUNNING bright green koicha and foams up beautifully (i forgot to take a photo of the microfoam on the usucha but you can see the foam in the video!) When compared to Jade Leafs culinary matcha color wise (jade leaf is the one in the tin) it's a MUCH brighter green and even brighter green in person. The taste of Satoen matcha is somewhat nutty, balanced, smooth and I'd say it's medium in terms of body but nothing too complex for the beginner matcha drinker. It leaves a lingering taste in your mouth and isn't astringent or bitter at all. Give this matcha a try if you're looking for an affordable daily matcha for your lattes!</p>",
+            "author": "Kayla",
+            "job": "Amazon Customer",
+            "image": "shopify://shop_images/71CxDL1LPaL._SL1600.jpg",
+            "testimonial_width": 100
+          }
+        },
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2": {
           "type": "testimonials",
           "settings": {
@@ -817,6 +828,7 @@
       },
       "block_order": [
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-1",
+        "testimonials_7CDVrL",
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-2",
         "template--20879003844905__757a514d-e65e-46da-92da-c981a603af3b-testimonials-3",
         "43613cf8-742d-4e08-be8d-aefba5ec619c"
@@ -834,7 +846,7 @@
         "show_rating": true,
         "img_view": "default",
         "img_position": "position-left",
-        "car_gap": 20,
+        "car_gap": 16,
         "carousel_item_desktop": 3,
         "autoplay": false,
         "loop": false,
