@@ -35,7 +35,7 @@
           "type": "review_sold",
           "settings": {
             "show_review": true,
-            "show_sold_product": true,
+            "show_sold_product": false,
             "sold": "8,10,12,15,17,22",
             "hours": "10,12,15,16,17,18,20,24"
           }
