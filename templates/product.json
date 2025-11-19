@@ -167,7 +167,7 @@
       "settings": {
         "container": "container",
         "design": "thumbnails-bottom",
-        "product_loading_effect": false,
+        "product_loading_effect": true,
         "sticky_product_information": true,
         "image_action": "show_zoom_button",
         "zoom_type": "external",
