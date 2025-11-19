@@ -52,6 +52,7 @@
         },
         "66e6994c-2a75-4723-a6a4-d69ac368f716": {
           "type": "visitors",
+          "disabled": true,
           "settings": {
             "count_text": "[count_number] people are viewing this right now",
             "count_range_max": 30,
