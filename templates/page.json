@@ -1,1 +1,133 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "banner_image_G8KMzp": {
+      "type": "banner-image",
+      "name": "t:sections.banner-image.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "column_gap": 30,
+        "layout_on_mobile": false,
+        "design_banner": "text-overlay-image",
+        "design_content": "default",
+        "text_align": "text-left",
+        "hover_effect": "zoom",
+        "h_font_size": 36,
+        "h_font_weight": "default",
+        "h_spacing": 10,
+        "sub_font_size": 18,
+        "sub_font_weight": "default",
+        "sub_spacing": 10,
+        "des_font_size": 16,
+        "des_font_weight": "default",
+        "des_spacing": 30,
+        "image_behavior": "none",
+        "text_position": "top",
+        "content_on_mobile": false,
+        "reset_color_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_aqPfkD": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_gUEbct": {
+          "type": "heading",
+          "settings": {
+            "title": "YABUKITA",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_dQiUby": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p><br/>Meet Yabukita—the definitive standard of Japanese green tea: incredibly cold-resilient, high-yielding, and crafted to deliver premium quality at a highly accessible price point.<br/><br/><br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_RhjWDh": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Explore",
+            "button_type": "primary",
+            "button_link": "shopify://collections/yabukita-matcha",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_gUEbct",
+        "text_dQiUby",
+        "buttons_RhjWDh"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_cultivars_-_Matcharu.png",
+        "image_mobile": "shopify://shop_images/Matcha_cultivars_-_Matcharu.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_image_G8KMzp",
+    "banner_with_text_aqPfkD"
+  ]
+}
