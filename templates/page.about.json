@@ -19,13 +19,15 @@
         "image_9nRYLX": {
           "type": "image",
           "settings": {
-            "text_circle": "MATCHARU",
+            "image": "shopify://shop_images/BULK_BAG_1000g_10.png",
+            "text_circle": "",
             "image_mt": 0,
             "image_mb": 0
           }
         },
         "8bf1d9d6-cada-478b-9ba4-2d2e44855632": {
           "type": "desc",
+          "disabled": true,
           "settings": {
             "desc": "<p>Welcome to Matcharu</p>",
             "desc_fs": 12,
@@ -61,7 +63,7 @@
         "template--21763387359529__d5c751ad-2b85-4c9d-b68f-d9a66d5e9199-desc-1": {
           "type": "desc",
           "settings": {
-            "desc": "<p><br/>With 20 years of expertise spanning from production to sourcing and curation, we deliver the exact Matcha you desire, offering the ultimate balance of quality and value.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>",
+            "desc": "<p><br/>With 20 years of expertise spanning from production to sourcing and curation, we deliver the exact Matcha you desire, offering the ultimate balance of quality and value.</p>",
             "desc_fs": 23,
             "desc_fw": "default",
             "content_width": 100,
@@ -91,26 +93,25 @@
     "174faa98-7109-44fa-bcb2-0fb5dbeea6c3": {
       "type": "banner-image",
       "blocks": {
-        "template--21763387359529__174faa98-7109-44fa-bcb2-0fb5dbeea6c3-image_banner-1": {
+        "image_banner_9x3zBh": {
           "type": "image_banner",
           "disabled": true,
           "settings": {
-            "banner_width": "12",
+            "banner_width": "6",
             "banner_type": "image",
-            "image": "shopify://shop_images/2023.-12.-12.-Tea00164_edited-1199x800.webp",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "",
-            "title": "",
-            "content": "",
-            "btn_content": "",
+            "subtext": "Subtext",
+            "title": "Heading",
+            "content": "<p>Description</p>",
+            "btn_content": "Shop now",
             "button_type": "primary"
           }
         }
       },
       "block_order": [
-        "template--21763387359529__174faa98-7109-44fa-bcb2-0fb5dbeea6c3-image_banner-1"
+        "image_banner_9x3zBh"
       ],
       "settings": {
         "heading_logo_svg": "",
