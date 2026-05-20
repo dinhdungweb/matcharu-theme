@@ -172,8 +172,162 @@
         "color_scheme": "",
         "image_behavior": "none",
         "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_2.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_2.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_mWPCke": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_YBJ8rx": {
+          "type": "heading",
+          "settings": {
+            "title": "Saemidori",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_EpmWJg": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p>As the epitome of visual and sensory luxury, Saemidori is highly prized for its astonishingly vibrant, bright jade green color and an intensely rich, sweet umami flavor with absolutely zero bitterness.<br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_Cx84Ef": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Discover More",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBJ8rx",
+        "text_EpmWJg",
+        "buttons_Cx84Ef"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
         "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
         "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_3CeNWi": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_Lhnxky": {
+          "type": "heading",
+          "settings": {
+            "title": "Tsuyu Hikari",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_YaNkxX": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p><br/>Experience a captivating fusion of flavors: the sweet elegance of cherry blossoms paired with the comforting richness of chocolate. With its uniquely thick, robust aroma, every sip delivers a beautifully deep and memorable finish.<br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_HaULch": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Discovery more",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lhnxky",
+        "text_YaNkxX",
+        "buttons_HaULch"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_3.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_3.png",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "link": "",
         "open_link": "_blank",
@@ -206,6 +360,8 @@
     "main",
     "banner_image_G8KMzp",
     "banner_with_text_aqPfkD",
-    "banner_with_text_N4RtXy"
+    "banner_with_text_N4RtXy",
+    "banner_with_text_mWPCke",
+    "banner_with_text_3CeNWi"
   ]
 }
