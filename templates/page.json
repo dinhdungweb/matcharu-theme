@@ -64,7 +64,7 @@
         "text_dQiUby": {
           "type": "text",
           "settings": {
-            "txt_content": "<p><br/>Meet Yabukita—the definitive standard of Japanese green tea: incredibly cold-resilient, high-yielding, and crafted to deliver premium quality at a highly accessible price point.<br/><br/><br/><br/></p>",
+            "txt_content": "<p><br/>Yabukita is the undisputed star of Japanese tea, celebrated for its remarkable cold resilience, high yield, and premium quality that allows for a more competitive cost without ever compromising on taste.<br/><br/><br/>Bold & Classic Umami Profile<br/><br/><br/><br/><br/><br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -75,7 +75,7 @@
         "buttons_RhjWDh": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Explore",
+            "btn_content": "Discover More",
             "button_type": "primary",
             "button_link": "shopify://collections/yabukita-matcha",
             "button_target": false,
@@ -123,11 +123,89 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
+    },
+    "banner_with_text_N4RtXy": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_pU67yY": {
+          "type": "heading",
+          "settings": {
+            "title": "OKUMIDORI",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_aRk9By": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p><br/>Okumidori is highly celebrated for its remarkably smooth and elegant profile—offering a clean, refreshing taste with minimal astringency and a naturally gentle sweetness. <br/>With an exceptional response to traditional shading, Okumidori produces a matcha powder of a vibrant, deep emerald green that instantly elevates the visual luxury of any beverage<br/><br/><br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_JQrYPB": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Discover More",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_pU67yY",
+        "text_aRk9By",
+        "buttons_JQrYPB"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "banner_image_G8KMzp",
-    "banner_with_text_aqPfkD"
+    "banner_with_text_aqPfkD",
+    "banner_with_text_N4RtXy"
   ]
 }
