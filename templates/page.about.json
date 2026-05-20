@@ -226,8 +226,8 @@
         "4ce13d24-4dc5-4b90-bd4d-cc9b130578c7": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Why Choose Us</p>",
-            "desc_fs": 12,
+            "desc": "<p><br/>What Defines Us<br/><br/></p>",
+            "desc_fs": 34,
             "desc_fw": "600",
             "content_width": 100,
             "desc_tf": "uppercase",
@@ -238,7 +238,7 @@
         "template--16584037925111__de27bbae-8b57-4758-bfe7-5ac9b1179505-1665713233cd3512b4-1": {
           "type": "heading",
           "settings": {
-            "heading": "Our Core Value",
+            "heading": "",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -249,7 +249,7 @@
         "template--16584037925111__de27bbae-8b57-4758-bfe7-5ac9b1179505-1665713233cd3512b4-2": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Quality you deserve, freshness you can taste<br/><br/><br/></p>",
+            "desc": "",
             "desc_fs": 34,
             "desc_fw": "default",
             "content_width": 60,
@@ -282,14 +282,14 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Matcha_Cultivars_Matcharu.com.png",
-            "image_mobile": "shopify://shop_images/Matcha_Cultivars_Matcharu.com.png",
+            "image": "shopify://shop_images/ChatGPT_Image_2026_5_19_00_23_17.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_2026_5_19_00_23_17.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "TRY before BUY",
             "title": "",
-            "content": "<p>Not sure what to choose? Try a sample pack!<br/>With so many varieties, why pick just one, our sample pack allows you to try all of them at once.<br/><br/><br/><br/></p>",
+            "content": "<p></p><p>Not sure what to choose? Try a sample pack!<br/>With so many varieties, why pick just one, our sample pack allows you to try all of them at once.<br/><br/><br/><br/></p>",
             "btn_content": "",
             "button_type": "link"
           }
@@ -316,8 +316,8 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Untitled_design_16_7f4939ab-8f60-4e8c-b6fe-4b622435aca4.png",
-            "image_mobile": "shopify://shop_images/Untitled_design_16_7f4939ab-8f60-4e8c-b6fe-4b622435aca4.png",
+            "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_4.png",
+            "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_4.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
