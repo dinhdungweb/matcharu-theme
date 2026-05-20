@@ -75,7 +75,7 @@
         "buttons_RhjWDh": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Discover More",
+            "btn_content": "Buy YABUKITA",
             "button_type": "primary",
             "button_link": "shopify://collections/yabukita-matcha",
             "button_target": false,
@@ -152,7 +152,7 @@
         "buttons_JQrYPB": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Discover More",
+            "btn_content": "Buy OKUMIDORI",
             "button_type": "primary",
             "button_link": "",
             "button_target": false,
@@ -207,7 +207,7 @@
         "heading_YBJ8rx": {
           "type": "heading",
           "settings": {
-            "title": "Saemidori",
+            "title": "SAEMIDORI",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -229,7 +229,7 @@
         "buttons_Cx84Ef": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Discover More",
+            "btn_content": "Buy SAEMIDORI",
             "button_type": "primary",
             "button_link": "shopify://collections/saemidori",
             "button_target": false,
@@ -284,7 +284,7 @@
         "heading_Lhnxky": {
           "type": "heading",
           "settings": {
-            "title": "Tsuyu Hikari",
+            "title": "TSUYU HIKARI",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -306,7 +306,7 @@
         "buttons_HaULch": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Discovery more",
+            "btn_content": "BUY TSUYU HIKARI",
             "button_type": "primary",
             "button_link": "shopify://collections/tsuyu-hikari",
             "button_target": false,
