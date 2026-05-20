@@ -64,7 +64,7 @@
         "text_dQiUby": {
           "type": "text",
           "settings": {
-            "txt_content": "<p><br/>Yabukita is the undisputed star of Japanese tea, celebrated for its remarkable cold resilience, high yield, and premium quality that allows for a more competitive cost without ever compromising on taste.<br/><br/><br/>Bold & Classic Umami Profile<br/><br/><br/><br/><br/><br/><br/></p>",
+            "txt_content": "<p><br/>Yabukita is the undisputed star of Japanese tea, celebrated for its remarkable cold resilience, high yield, and premium quality that allows for a more competitive cost without ever compromising on taste.<br/><br/>With its vibrant color and robust flavor profile, Yabukita is exceptionally versatile, maintaining its rich tea character beautifully in premium lattes, iced beverages, and culinary creations<br/><br/><br/><br/><br/><br/><br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -141,7 +141,7 @@
         "text_aRk9By": {
           "type": "text",
           "settings": {
-            "txt_content": "<p><br/>Okumidori is highly celebrated for its remarkably smooth and elegant profile—offering a clean, refreshing taste with minimal astringency and a naturally gentle sweetness. <br/>With an exceptional response to traditional shading, Okumidori produces a matcha powder of a vibrant, deep emerald green that instantly elevates the visual luxury of any beverage<br/><br/><br/><br/></p>",
+            "txt_content": "<p><br/>Okumidori is highly celebrated for its remarkably smooth and elegant profile—offering a clean, refreshing taste with minimal astringency and a naturally gentle sweetness. <br/>With an exceptional response to traditional shading, Okumidori produces a matcha powder of a vibrant, deep emerald green that instantly elevates the visual luxury of any beverage<br/></p><p><br/>Serving as the master harmonizer in artisanal tea selection, Okumidori blends seamlessly with other cultivars, smoothing out bold notes to create a perfectly rounded and sophisticated cup.<br/><br/><br/><br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
