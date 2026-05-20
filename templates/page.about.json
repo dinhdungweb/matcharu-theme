@@ -16,6 +16,14 @@
     "d5c751ad-2b85-4c9d-b68f-d9a66d5e9199": {
       "type": "custom-text",
       "blocks": {
+        "image_9nRYLX": {
+          "type": "image",
+          "settings": {
+            "text_circle": "MATCHARU",
+            "image_mt": 0,
+            "image_mb": 0
+          }
+        },
         "8bf1d9d6-cada-478b-9ba4-2d2e44855632": {
           "type": "desc",
           "settings": {
@@ -64,6 +72,7 @@
         }
       },
       "block_order": [
+        "image_9nRYLX",
         "8bf1d9d6-cada-478b-9ba4-2d2e44855632",
         "template--21763387359529__d5c751ad-2b85-4c9d-b68f-d9a66d5e9199-heading-1",
         "dd92a639-33fa-4540-8684-c397f5f3813c",
