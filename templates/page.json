@@ -306,7 +306,7 @@
         "buttons_HaULch": {
           "type": "buttons",
           "settings": {
-            "btn_content": "BUY TSUYU HIKARI",
+            "btn_content": "Buy TSUYU HIKARI",
             "button_type": "primary",
             "button_link": "shopify://collections/tsuyu-hikari",
             "button_target": false,
