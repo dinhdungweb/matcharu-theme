@@ -53,10 +53,10 @@
         "template--21763387359529__d5c751ad-2b85-4c9d-b68f-d9a66d5e9199-desc-1": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Family owned and operated for over 20 years, we own our matcha farm in Japan so have direct access to some of the best varieties of matcha you could find! From our farm to your cup, we guarantee freshness, quality, and taste you’ll love.<br/><br/><br/><br/></p>",
-            "desc_fs": 16,
+            "desc": "<p><br/>With 20 years of expertise spanning from production to sourcing and curation, we deliver the exact Matcha you desire, offering the ultimate balance of quality and value.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>",
+            "desc_fs": 23,
             "desc_fw": "default",
-            "content_width": 60,
+            "content_width": 100,
             "desc_tf": "unset",
             "desc_mt": 5,
             "desc_mb": 1
