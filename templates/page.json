@@ -218,7 +218,7 @@
         "text_EpmWJg": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>As the epitome of visual and sensory luxury, Saemidori is highly prized for its astonishingly vibrant, bright jade green color and an intensely rich, sweet umami flavor with absolutely zero bitterness.<br/><br/></p>",
+            "txt_content": "<ul><li>Saemidori is a unique Japanese tea cultivar, a cross between Asatsuyu (\"Natural Gyokuro\") and Yabukita, created in 1969 and registered for protection in Japan in 1993.</li><li>This lineage combines two prestigious lines:</li></ul><p><strong>Mother</strong>: Yabukita, a standard-setter with robust and umami flavor.</p><p><strong>Father</strong>: Asatsuyu, nicknamed \"Natural Gyokuro\" due to its extraordinarily vibrant, bright green color and sweet flavor.</p><p>Saemidori represents a perfect blend of 'Sweetness' and 'Bright Green Color',  in every cup.<br/>Saemidori is highly prized for its astonishingly vibrant, bright jade green color and an intensely rich, sweet umami flavor with absolutely zero bitterness.<br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -231,7 +231,7 @@
           "settings": {
             "btn_content": "Discover More",
             "button_type": "primary",
-            "button_link": "",
+            "button_link": "shopify://collections/saemidori",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
@@ -295,7 +295,7 @@
         "text_YaNkxX": {
           "type": "text",
           "settings": {
-            "txt_content": "<p><br/>Experience a captivating fusion of flavors: the sweet elegance of cherry blossoms paired with the comforting richness of chocolate. With its uniquely thick, robust aroma, every sip delivers a beautifully deep and memorable finish.<br/><br/></p>",
+            "txt_content": "<ul><li>Tsuyu Hikari is a unique Japanese tea cultivar, hybridised in 1970 and registered for protection in Japan in 2003.</li><li>Its lineage is a perfect combination of two prestigious lines:</li></ul><p>           Father: Shizu-7132, a cultivar renowned for its natural aroma reminiscent of cherry blossom (sakura).</p><p>           Mother: Asatsuyu, nicknamed \"Natural Gyokuro\" due to its extraordinarily vibrant green color and deep, rich Umami flavor.</p><p></p><p>     This lineage allows you to communicate to your customers a perfect blend of \"Cherry Blossom Fragrance\" and \"Sweetness of the Dew\" in every single cup of tea.<br/>Experience a captivating fusion of flavors: the sweet elegance of cherry blossoms paired with the comforting richness of chocolate. With its uniquely thick, robust aroma, every sip delivers a beautifully deep and memorable finish.<br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -308,7 +308,7 @@
           "settings": {
             "btn_content": "Discovery more",
             "button_type": "primary",
-            "button_link": "",
+            "button_link": "shopify://collections/tsuyu-hikari",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
