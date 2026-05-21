@@ -28,14 +28,14 @@
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "box"
+            "collection": "aluminum-foil-pouches"
           }
         },
         "collection_YeKQnm": {
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "1kg-bag"
+            "collection": "other"
           }
         }
       },
@@ -47,7 +47,7 @@
       "name": "t:sections.collection-tab.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "MATCHA",
+        "heading": "OTHER",
         "description": "",
         "text_alignment": "text-center",
         "container": "container",
