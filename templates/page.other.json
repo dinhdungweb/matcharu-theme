@@ -55,7 +55,7 @@
         "tab_design": "horizontal",
         "tab_style": "tab_desgin_1",
         "tab_type": "grid",
-        "limit_products": 8,
+        "limit_products": 12,
         "item_desktop": 4,
         "column_gap": 30,
         "carousel_autoplay": false,
