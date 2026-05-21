@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection_tab_A9yNAg": {
+      "type": "collection-tab",
+      "blocks": {
+        "collection_FkQLtH": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "tins"
+          }
+        },
+        "collection_iYfxwB": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "box"
+          }
+        },
+        "collection_YeKQnm": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "1kg-bag"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FkQLtH",
+        "collection_iYfxwB",
+        "collection_YeKQnm"
+      ],
+      "name": "t:sections.collection-tab.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "MATCHA",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "tab_design": "horizontal",
+        "tab_style": "tab_desgin_1",
+        "tab_type": "grid",
+        "limit_products": 8,
+        "item_desktop": 4,
+        "column_gap": 30,
+        "carousel_autoplay": false,
+        "carousel_loop": false,
+        "carousel_arrows": false,
+        "carousel_pagination": "carousel_none",
+        "number_of_rows": 1,
+        "load_more_button_enable": false,
+        "button_action": "load",
+        "button_label": "Load more",
+        "button_type": "primary",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_tab_A9yNAg"
+  ]
+}
