@@ -50,7 +50,7 @@
         "heading": "MATCHA",
         "description": "",
         "text_alignment": "text-center",
-        "container": "strecth-width",
+        "container": "container-fluid",
         "color_scheme": "",
         "tab_design": "horizontal",
         "tab_style": "tab_desgin_1",
