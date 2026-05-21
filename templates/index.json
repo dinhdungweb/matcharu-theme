@@ -558,10 +558,10 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "shopify://collections/sample-size-try-before-you-buy-30g-1-05oz",
             "open_link": "_blank",
-            "subtext": "Super Sale 40% Off!",
+            "subtext": "",
             "title": "SAMPLE",
             "content": "",
-            "btn_content": "Shop Limited  Sample",
+            "btn_content": "TRY before BUY",
             "button_type": "link"
           }
         },
@@ -575,10 +575,10 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "shopify://collections/matcha-refill-50g1-76oz-pouch-smart-sustainable-budget-friendly-choice",
             "open_link": "_blank",
-            "subtext": "Super Sale 30% Off",
+            "subtext": "",
             "title": "REFILL",
             "content": "",
-            "btn_content": "Shop Refill for Savings",
+            "btn_content": "REFILL for SAVINGS",
             "button_type": "link"
           }
         }
