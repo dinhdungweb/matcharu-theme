@@ -49,28 +49,20 @@
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "box"
-          }
-        },
-        "collection_BfaWmC": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "collection": "pouch-bag"
+            "collection": "aluminum-foil-pouches"
           }
         },
         "collection_Bz3WyW": {
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "1kg-bag"
+            "collection": "other"
           }
         }
       },
       "block_order": [
         "collection_BMxm9J",
         "collection_mAY4xA",
-        "collection_BfaWmC",
         "collection_Bz3WyW"
       ],
       "name": "t:sections.collection-tab.name",
