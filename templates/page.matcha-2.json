@@ -24,6 +24,13 @@
             "collection": "tins"
           }
         },
+        "collection_wmg9zm": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "pouch-bag"
+          }
+        },
         "collection_iYfxwB": {
           "type": "collection",
           "settings": {
@@ -41,6 +48,7 @@
       },
       "block_order": [
         "collection_FkQLtH",
+        "collection_wmg9zm",
         "collection_iYfxwB",
         "collection_YeKQnm"
       ],
