@@ -1,0 +1,367 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "banner_image_G8KMzp": {
+      "type": "banner-image",
+      "name": "t:sections.banner-image.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "column_gap": 30,
+        "layout_on_mobile": false,
+        "design_banner": "text-overlay-image",
+        "design_content": "default",
+        "text_align": "text-left",
+        "hover_effect": "zoom",
+        "h_font_size": 36,
+        "h_font_weight": "default",
+        "h_spacing": 10,
+        "sub_font_size": 18,
+        "sub_font_weight": "default",
+        "sub_spacing": 10,
+        "des_font_size": 16,
+        "des_font_weight": "default",
+        "des_spacing": 30,
+        "image_behavior": "none",
+        "text_position": "top",
+        "content_on_mobile": false,
+        "reset_color_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_aqPfkD": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_gUEbct": {
+          "type": "heading",
+          "settings": {
+            "title": "YABUKITA",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_dQiUby": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p><br/>Yabukita is the undisputed star of Japanese tea, celebrated for its remarkable cold resilience, high yield, and premium quality that allows for a more competitive cost without ever compromising on taste.<br/><br/>With its vibrant color and robust flavor profile, Yabukita is exceptionally versatile, maintaining its rich tea character beautifully in premium lattes, iced beverages, and culinary creations<br/><br/><br/><br/><br/><br/><br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_RhjWDh": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Buy YABUKITA",
+            "button_type": "primary",
+            "button_link": "shopify://collections/yabukita-matcha",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_gUEbct",
+        "text_dQiUby",
+        "buttons_RhjWDh"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_cultivars_-_Matcharu.png",
+        "image_mobile": "shopify://shop_images/Matcha_cultivars_-_Matcharu.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_N4RtXy": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_pU67yY": {
+          "type": "heading",
+          "settings": {
+            "title": "OKUMIDORI",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_aRk9By": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p><br/>Okumidori is highly celebrated for its remarkably smooth and elegant profile—offering a clean, refreshing taste with minimal astringency and a naturally gentle sweetness. <br/>With an exceptional response to traditional shading, Okumidori produces a matcha powder of a vibrant, deep emerald green that instantly elevates the visual luxury of any beverage<br/></p><p><br/>Serving as the master harmonizer in artisanal tea selection, Okumidori blends seamlessly with other cultivars, smoothing out bold notes to create a perfectly rounded and sophisticated cup.<br/><br/><br/><br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_JQrYPB": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Buy OKUMIDORI",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_pU67yY",
+        "text_aRk9By",
+        "buttons_JQrYPB"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_2.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_2.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_mWPCke": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_YBJ8rx": {
+          "type": "heading",
+          "settings": {
+            "title": "SAEMIDORI",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_EpmWJg": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<ul><li>Saemidori is a unique Japanese tea cultivar, a cross between Asatsuyu (\"Natural Gyokuro\") and Yabukita, created in 1969 and registered for protection in Japan in 1993.</li><li>This lineage combines two prestigious lines:</li></ul><p><strong>Mother</strong>: Yabukita, a standard-setter with robust and umami flavor.</p><p><strong>Father</strong>: Asatsuyu, nicknamed \"Natural Gyokuro\" due to its extraordinarily vibrant, bright green color and sweet flavor.</p><p>Saemidori represents a perfect blend of 'Sweetness' and 'Bright Green Color',  in every cup.<br/>Saemidori is highly prized for its astonishingly vibrant, bright jade green color and an intensely rich, sweet umami flavor with absolutely zero bitterness.<br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_Cx84Ef": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Buy SAEMIDORI",
+            "button_type": "primary",
+            "button_link": "shopify://collections/saemidori",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBJ8rx",
+        "text_EpmWJg",
+        "buttons_Cx84Ef"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_1.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "banner_with_text_3CeNWi": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_Lhnxky": {
+          "type": "heading",
+          "settings": {
+            "title": "TSUYU HIKARI",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_YaNkxX": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<ul><li>Tsuyu Hikari is a unique Japanese tea cultivar, hybridised in 1970 and registered for protection in Japan in 2003.</li><li>Its lineage is a perfect combination of two prestigious lines:</li></ul><p>           Father: Shizu-7132, a cultivar renowned for its natural aroma reminiscent of cherry blossom (sakura).</p><p>           Mother: Asatsuyu, nicknamed \"Natural Gyokuro\" due to its extraordinarily vibrant green color and deep, rich Umami flavor.</p><p></p><p>     This lineage allows you to communicate to your customers a perfect blend of \"Cherry Blossom Fragrance\" and \"Sweetness of the Dew\" in every single cup of tea.<br/>Experience a captivating fusion of flavors: the sweet elegance of cherry blossoms paired with the comforting richness of chocolate. With its uniquely thick, robust aroma, every sip delivers a beautifully deep and memorable finish.<br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_HaULch": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Buy TSUYU HIKARI",
+            "button_type": "primary",
+            "button_link": "shopify://collections/tsuyu-hikari",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lhnxky",
+        "text_YaNkxX",
+        "buttons_HaULch"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_3.png",
+        "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_3.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_image_G8KMzp",
+    "banner_with_text_aqPfkD",
+    "banner_with_text_N4RtXy",
+    "banner_with_text_mWPCke",
+    "banner_with_text_3CeNWi"
+  ]
+}
