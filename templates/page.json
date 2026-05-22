@@ -89,6 +89,7 @@
         "text_dQiUby",
         "buttons_RhjWDh"
       ],
+      "disabled": true,
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "container": "container",
@@ -166,6 +167,7 @@
         "text_aRk9By",
         "buttons_JQrYPB"
       ],
+      "disabled": true,
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "container": "container",
@@ -243,6 +245,7 @@
         "text_EpmWJg",
         "buttons_Cx84Ef"
       ],
+      "disabled": true,
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "container": "container",
@@ -320,6 +323,7 @@
         "text_YaNkxX",
         "buttons_HaULch"
       ],
+      "disabled": true,
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "container": "container",
