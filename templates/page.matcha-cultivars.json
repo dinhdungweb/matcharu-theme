@@ -78,7 +78,7 @@
             "btn_content": "Buy YABUKITA",
             "button_type": "primary",
             "button_link": "shopify://collections/yabukita-matcha",
-            "button_target": false,
+            "button_target": true,
             "b_mt": 0,
             "b_mb": 15
           }
