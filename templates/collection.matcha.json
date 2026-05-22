@@ -153,7 +153,7 @@
       "name": "t:sections.products-carousel.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "Matcha Tin",
+        "heading": "MATCHA TIN",
         "description": "",
         "text_alignment": "text-left",
         "container": "container-fluid",
@@ -186,7 +186,7 @@
       "name": "t:sections.products-carousel.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "Matcha Box",
+        "heading": "MATCHA BOX",
         "description": "",
         "text_alignment": "text-left",
         "container": "container-fluid",
@@ -219,7 +219,7 @@
       "name": "t:sections.products-carousel.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "Small bag",
+        "heading": "ECONOMY BAG",
         "description": "",
         "text_alignment": "text-left",
         "container": "container-fluid",
@@ -252,7 +252,7 @@
       "name": "t:sections.products-carousel.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "Bulk bag",
+        "heading": "BULK BAG",
         "description": "",
         "text_alignment": "text-left",
         "container": "container-fluid",
