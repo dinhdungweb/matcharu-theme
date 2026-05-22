@@ -372,6 +372,15 @@
       "horizontal-menu": {
         "type": "horizontal-menu",
         "blocks": {
+          "collection_E4qxDp": {
+            "type": "collection",
+            "settings": {
+              "collection": "empty-tin-1",
+              "show_count": false,
+              "open_link": false,
+              "col": "4"
+            }
+          },
           "dropdown_RxK7MX": {
             "type": "dropdown",
             "settings": {
@@ -539,6 +548,7 @@
           }
         },
         "block_order": [
+          "collection_E4qxDp",
           "dropdown_RxK7MX",
           "menu_item_Mrt9ic",
           "link_7Ha3JT",
