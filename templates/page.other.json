@@ -17,18 +17,11 @@
     "collection_tab_A9yNAg": {
       "type": "collection-tab",
       "blocks": {
-        "collection_JePR3D": {
+        "collection_r7ppfQ": {
           "type": "collection",
           "settings": {
-            "title": "",
+            "title": "Empty TIN",
             "collection": "empty-tin-1"
-          }
-        },
-        "collection_wNGM9f": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "collection": ""
           }
         },
         "collection_iYfxwB": {
@@ -47,8 +40,7 @@
         }
       },
       "block_order": [
-        "collection_JePR3D",
-        "collection_wNGM9f",
+        "collection_r7ppfQ",
         "collection_iYfxwB",
         "collection_YeKQnm"
       ],
