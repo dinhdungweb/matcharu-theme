@@ -17,14 +17,21 @@
     "collection_tab_A9yNAg": {
       "type": "collection-tab",
       "blocks": {
-        "collection_r7ppfQ": {
+        "collection_JePR3D": {
           "type": "collection",
           "settings": {
-            "title": "Empty TIN",
+            "title": "",
             "collection": "empty-tin-1"
           }
         },
         "collection_iYfxwB": {
+          "type": "collection",
+          "settings": {
+            "title": "Empty tin",
+            "collection": "empty-tin-1"
+          }
+        },
+        "collection_a4xGg8": {
           "type": "collection",
           "settings": {
             "title": "",
@@ -40,8 +47,9 @@
         }
       },
       "block_order": [
-        "collection_r7ppfQ",
+        "collection_JePR3D",
         "collection_iYfxwB",
+        "collection_a4xGg8",
         "collection_YeKQnm"
       ],
       "name": "t:sections.collection-tab.name",
