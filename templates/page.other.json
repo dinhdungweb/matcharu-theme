@@ -17,11 +17,11 @@
     "collection_tab_A9yNAg": {
       "type": "collection-tab",
       "blocks": {
-        "collection_FkQLtH": {
+        "collection_JePR3D": {
           "type": "collection",
           "settings": {
-            "title": "",
-            "collection": "tins"
+            "title": "EMPTY TIN",
+            "collection": ""
           }
         },
         "collection_iYfxwB": {
@@ -40,14 +40,14 @@
         }
       },
       "block_order": [
-        "collection_FkQLtH",
+        "collection_JePR3D",
         "collection_iYfxwB",
         "collection_YeKQnm"
       ],
       "name": "t:sections.collection-tab.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "OTHER",
+        "heading": "TEA PACKAGING MATERIALS",
         "description": "",
         "text_alignment": "text-center",
         "container": "container-fluid",
