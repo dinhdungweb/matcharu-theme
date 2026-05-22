@@ -154,8 +154,8 @@
           "settings": {
             "btn_content": "Buy OKUMIDORI",
             "button_type": "primary",
-            "button_link": "",
-            "button_target": false,
+            "button_link": "shopify://collections/okumidori",
+            "button_target": true,
             "b_mt": 0,
             "b_mb": 15
           }
