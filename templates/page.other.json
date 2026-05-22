@@ -20,8 +20,15 @@
         "collection_JePR3D": {
           "type": "collection",
           "settings": {
-            "title": "EMPTY TIN",
+            "title": "",
             "collection": "empty-tin-1"
+          }
+        },
+        "collection_wNGM9f": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": ""
           }
         },
         "collection_iYfxwB": {
@@ -41,6 +48,7 @@
       },
       "block_order": [
         "collection_JePR3D",
+        "collection_wNGM9f",
         "collection_iYfxwB",
         "collection_YeKQnm"
       ],
