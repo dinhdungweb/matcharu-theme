@@ -26,7 +26,7 @@
         "container": "container",
         "color_scheme": "default-color-scheme",
         "show_banner": true,
-        "use_collection_image": false,
+        "use_collection_image": true,
         "min_height": 200,
         "parallax": false,
         "show_overlay": false,
@@ -129,13 +129,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "reset_spacing": true
-      }
-    },
-    "439e38df-206c-40a8-9cd5-fc0e5f00f9d3": {
-      "type": "spacing",
-      "settings": {
-        "spacing_desktop": 30,
-        "spacing_moible": 10
       }
     },
     "collection_list_RP9gRg": {
@@ -310,7 +303,6 @@
   "order": [
     "main-collection-heading",
     "8498460c-0376-40d1-bafc-199edbe0edfc",
-    "439e38df-206c-40a8-9cd5-fc0e5f00f9d3",
     "collection_list_RP9gRg",
     "product-grid",
     "sub-collection"
