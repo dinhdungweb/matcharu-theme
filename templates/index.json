@@ -12,6 +12,29 @@
     "0c521c75-5d82-4dd6-aecc-f519d8907411": {
       "type": "slideshow",
       "blocks": {
+        "4d89f9ff-8153-4b4a-a089-ccb19f702450": {
+          "type": "slider_item",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_3840_x_1600_px_1_13fbe31b-fe32-425e-aa21-13d315cfb7cb.png",
+            "image_mobile": "shopify://shop_images/Untitled_design_8.png",
+            "content_box": "content_in_container_fluid",
+            "content_custom_width": true,
+            "content_width": 100,
+            "content_background_color": "",
+            "content_opacity": 100,
+            "horizontal_position": "center_position",
+            "vertical_position": "middle_position",
+            "slider_effect": "effect_fadeinup",
+            "text_alignment": "center",
+            "text_alignment_on_mobile": "center",
+            "subheading": "MATCHA",
+            "title": "MATCHA OURS, STYLE YOURS",
+            "description": "",
+            "image_link": "shopify://collections/fresh-vegetables",
+            "button_text": "Shop Now",
+            "button_type": "primary"
+          }
+        },
         "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b": {
           "type": "slider_item",
           "settings": {
@@ -58,29 +81,6 @@
             "button_type": "primary"
           }
         },
-        "4d89f9ff-8153-4b4a-a089-ccb19f702450": {
-          "type": "slider_item",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_3840_x_1600_px_1_13fbe31b-fe32-425e-aa21-13d315cfb7cb.png",
-            "image_mobile": "shopify://shop_images/Untitled_design_8.png",
-            "content_box": "content_in_container_fluid",
-            "content_custom_width": true,
-            "content_width": 100,
-            "content_background_color": "",
-            "content_opacity": 100,
-            "horizontal_position": "center_position",
-            "vertical_position": "middle_position",
-            "slider_effect": "effect_fadeinup",
-            "text_alignment": "center",
-            "text_alignment_on_mobile": "center",
-            "subheading": "MATCHA",
-            "title": "MATCHA OURS, STYLE YOURS",
-            "description": "",
-            "image_link": "shopify://collections/fresh-vegetables",
-            "button_text": "Shop Now",
-            "button_type": "primary"
-          }
-        },
         "slider_item_Nwi74h": {
           "type": "slider_item",
           "disabled": true,
@@ -107,9 +107,9 @@
         }
       },
       "block_order": [
+        "4d89f9ff-8153-4b4a-a089-ccb19f702450",
         "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b",
         "template--16567751082231__0c521c75-5d82-4dd6-aecc-f519d8907411-1666406556d8612fa9-0",
-        "4d89f9ff-8153-4b4a-a089-ccb19f702450",
         "slider_item_Nwi74h"
       ],
       "custom_css": [
