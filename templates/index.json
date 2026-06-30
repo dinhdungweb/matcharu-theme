@@ -431,8 +431,8 @@
       "name": "t:sections.collection-list.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "",
-        "description": "",
+        "heading": "SHOP MATCHA BY CULTIVAR",
+        "description": "<h3><br/><em>Different cultivars, distinct flavors. Did you know?<br/></em><br/></h3>",
         "text_alignment": "text-center",
         "container": "container",
         "color_scheme": "",
@@ -601,7 +601,7 @@
       "type": "products-carousel",
       "settings": {
         "heading_logo_svg": "FEATURED PRODUCTS",
-        "heading": "Our Collection",
+        "heading": "Our Antique Matcha Bowl Collection",
         "description": "",
         "text_alignment": "text-center",
         "container": "container-fluid",
