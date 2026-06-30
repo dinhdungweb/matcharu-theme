@@ -354,6 +354,83 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
+    },
+    "banner_with_text_F7YPtj": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_ywxfF6": {
+          "type": "heading",
+          "settings": {
+            "title": "YUTAKA MIDORI",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_i9kQrG": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review</p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_XAwrQD": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Buy Yutaka Midori",
+            "button_type": "primary",
+            "button_link": "shopify://products/uji-yutaka-midori-ceremonial-matcha-heki-yt01",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_ywxfF6",
+        "text_i9kQrG",
+        "buttons_XAwrQD"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Yutaka_Midori.png",
+        "image_mobile": "shopify://shop_images/Yutaka_Midori.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
@@ -362,6 +439,7 @@
     "banner_with_text_aqPfkD",
     "banner_with_text_N4RtXy",
     "banner_with_text_mWPCke",
-    "banner_with_text_3CeNWi"
+    "banner_with_text_3CeNWi",
+    "banner_with_text_F7YPtj"
   ]
 }
