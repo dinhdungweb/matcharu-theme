@@ -385,7 +385,7 @@
           "settings": {
             "btn_content": "Buy YUTAKA MIDORI",
             "button_type": "primary",
-            "button_link": "shopify://products/uji-yutaka-midori-ceremonial-matcha-heki-yt01",
+            "button_link": "shopify://collections/yutaka-midori",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
