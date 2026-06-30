@@ -378,6 +378,86 @@
         "reset_spacing": false
       }
     },
+    "collection_list_rdVxWq": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_item_paFVqj": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "YABUKITA",
+            "collection": "yabukita-matcha"
+          }
+        },
+        "collection_item_6L7Ucp": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "OKUMIDORI",
+            "collection": "okumidori"
+          }
+        },
+        "collection_item_3BMYhB": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "TSUYU HIKARI",
+            "collection": "tsuyu-hikari"
+          }
+        },
+        "collection_item_MePbWy": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "YUTAKA MIDORI",
+            "collection": "yutaka-midori"
+          }
+        },
+        "collection_item_wMQbrP": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "SAEMIDORI",
+            "collection": "saemidori"
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_paFVqj",
+        "collection_item_6L7Ucp",
+        "collection_item_3BMYhB",
+        "collection_item_MePbWy",
+        "collection_item_wMQbrP"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "design_layout": "carousel",
+        "design_collection": "design-1",
+        "hover_effect": "zoom",
+        "show_count_product": true,
+        "custom_width_images": false,
+        "width_image": 200,
+        "images_style": false,
+        "image_ratio": "3/4",
+        "custom_ratio": "21:9",
+        "custom_column": 6,
+        "column_gap": 30,
+        "collection_font_size": 16,
+        "collection_font_weight": 500,
+        "collection_spacing": 0,
+        "count_font_size": 14,
+        "count_font_weight": 400,
+        "autoplay": false,
+        "loop": false,
+        "show_arrow": false,
+        "carousel_pagination": "carousel_none",
+        "reveal_on_scroll": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6": {
       "type": "products-carousel",
       "settings": {
@@ -936,6 +1016,7 @@
     "scrolling_text_XcXiHP",
     "d7e90462-e14f-4ace-967d-1869610a1c0d",
     "collection_list_pdebxc",
+    "collection_list_rdVxWq",
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6",
     "71c0977c-a54c-4240-aaf3-811f64745dc5",
     "bf8c8378-d980-4080-aaa3-02e0b1af6969",
