@@ -425,8 +425,8 @@
         "collection_item_wMQbrP"
       ],
       "custom_css": [
-        ".collection-card__image-wrapper {transform: scale(1.3 ); /* Phóng to ảnh lên 25% */ transition: transform 0.3s ease;}",
-        "/* Giảm bớt khoảng cách đệm (padding) thừa xung quanh thẻ để ảnh tràn ra rộng hơn */.card__inner {padding: 0 !important;}"
+        ".collection-card__image-wrapper {transform: scale(1.3); /* Phóng to ảnh lên 25% */ transition: transform 0.3s ease;}",
+        " /* Giảm bớt khoảng cách đệm (padding) thừa xung quanh thẻ để ảnh tràn ra rộng hơn */.card__inner {padding: 0 !important;}"
       ],
       "name": "t:sections.collection-list.name",
       "settings": {
