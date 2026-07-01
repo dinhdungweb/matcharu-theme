@@ -505,7 +505,7 @@
         "images_style": false,
         "image_ratio": "1/1",
         "custom_ratio": "21:9",
-        "custom_column": 2,
+        "custom_column": 3,
         "column_gap": 15,
         "collection_font_size": 23,
         "collection_font_weight": 500,
