@@ -241,18 +241,12 @@
             "image": "shopify://shop_images/Main_remake_44.png"
           }
         },
-        "template--20879003844905__d7e90462-e14f-4ace-967d-1869610a1c0d-collection_item-4": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "Shop Herbtea",
-            "collection": "herbtea"
-          }
-        },
         "3eac39e8-b381-4850-8d69-4db1ec8b8f27": {
           "type": "collection_item",
           "settings": {
-            "title_collection": "Shop Other",
-            "collection": "other"
+            "title_collection": "Shop Tea Packaging Supplies",
+            "collection": "packaging-materials",
+            "image": "shopify://shop_images/Tin_Matcha_inside_1f6a7117-98b9-44d4-ab24-101acfeb78f5.png"
           }
         }
       },
@@ -260,7 +254,6 @@
         "template--20879003844905__d7e90462-e14f-4ace-967d-1869610a1c0d-collection_item-1",
         "template--20879003844905__d7e90462-e14f-4ace-967d-1869610a1c0d-collection_item-2",
         "template--20879003844905__d7e90462-e14f-4ace-967d-1869610a1c0d-collection_item-3",
-        "template--20879003844905__d7e90462-e14f-4ace-967d-1869610a1c0d-collection_item-4",
         "3eac39e8-b381-4850-8d69-4db1ec8b8f27"
       ],
       "settings": {
