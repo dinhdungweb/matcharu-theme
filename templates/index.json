@@ -430,8 +430,8 @@
       ],
       "name": "t:sections.collection-list.name",
       "settings": {
-        "heading_logo_svg": "",
-        "heading": "SHOP MATCHA BY CULTIVAR",
+        "heading_logo_svg": "Our Pick",
+        "heading": "MATCHA CULTIVARS",
         "description": "",
         "text_alignment": "text-center",
         "container": "container",
