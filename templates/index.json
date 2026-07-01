@@ -455,6 +455,70 @@
         "reset_spacing": false
       }
     },
+    "collection_list_RDTdGT": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_item_78ywWF": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "SHIZUOKA",
+            "collection": ""
+          }
+        },
+        "collection_item_3mY9NX": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "UJI",
+            "collection": ""
+          }
+        },
+        "collection_item_whCLrA": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "KAGOSHIMA",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_78ywWF",
+        "collection_item_3mY9NX",
+        "collection_item_whCLrA"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "design_layout": "carousel",
+        "design_collection": "design-1",
+        "hover_effect": "zoom",
+        "show_count_product": true,
+        "custom_width_images": false,
+        "width_image": 200,
+        "images_style": false,
+        "image_ratio": "3/4",
+        "custom_ratio": "21:9",
+        "custom_column": 3,
+        "column_gap": 30,
+        "collection_font_size": 16,
+        "collection_font_weight": 500,
+        "collection_spacing": 0,
+        "count_font_size": 14,
+        "count_font_weight": 400,
+        "autoplay": false,
+        "loop": false,
+        "show_arrow": false,
+        "carousel_pagination": "carousel_none",
+        "reveal_on_scroll": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6": {
       "type": "products-carousel",
       "settings": {
@@ -947,65 +1011,6 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
-    },
-    "bcc14098-5b7d-489d-bcac-45384a7d8639": {
-      "type": "icon-box",
-      "blocks": {
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-1": {
-          "type": "iconbox",
-          "settings": {
-            "icon": "shopify://shop_images/org_icon_box_1.webp",
-            "heading": "Fast Delivery",
-            "description": "<p>Offering optimal shipping solutions at the best cost for our customers.<br/><br/><br/><br/></p>"
-          }
-        },
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-2": {
-          "type": "iconbox",
-          "settings": {
-            "icon": "shopify://shop_images/payment-protection_2.png",
-            "heading": "Fast and Secure Payments",
-            "description": "<p>Accepting trusted methods: </p><p>Credit Card, PayPal, Bank, Stripe and others.<br/><br/></p>"
-          }
-        },
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-3": {
-          "type": "iconbox",
-          "settings": {
-            "icon": "shopify://shop_images/org_icon_box_3.webp",
-            "heading": "Quality Guaranteed",
-            "description": "<p>Pride ourselves on offering you the highest quality products and exceptional customer service.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-1",
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-2",
-        "template--20879003844905__bcc14098-5b7d-489d-bcac-45384a7d8639-iconbox-3"
-      ],
-      "custom_css": [
-        "@media (min-width: 1200px) {.bls__section_shipping-content {max-width: 93%; }}"
-      ],
-      "settings": {
-        "heading_logo_svg": "",
-        "heading": "",
-        "description": "",
-        "text_alignment": "text-center",
-        "container": "container-fluid",
-        "color_scheme": "scheme-3c512758-fd55-4314-8945-beec6e57aa7a",
-        "custom_column": 3,
-        "column_gap": 20,
-        "icon_width": 80,
-        "icon_spacing": 20,
-        "ib_h_font_size": 16,
-        "ib_h_font_weight": "default",
-        "ib_spacing": 20,
-        "ib_desc_font_size": 14,
-        "ib_img_view": "default",
-        "img_position": "position-top",
-        "content_text_alignment": "text-center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "reset_spacing": false
-      }
     }
   },
   "order": [
@@ -1014,13 +1019,13 @@
     "d7e90462-e14f-4ace-967d-1869610a1c0d",
     "collection_list_pdebxc",
     "collection_list_rdVxWq",
+    "collection_list_RDTdGT",
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6",
     "71c0977c-a54c-4240-aaf3-811f64745dc5",
     "bf8c8378-d980-4080-aaa3-02e0b1af6969",
     "ef37a47e-d9db-4855-ac05-e04279ad1ca7",
     "50d25b8c-8e76-40ff-9947-d9410583e0fc",
     "blog_posts_YFDnUU",
-    "757a514d-e65e-46da-92da-c981a603af3b",
-    "bcc14098-5b7d-489d-bcac-45384a7d8639"
+    "757a514d-e65e-46da-92da-c981a603af3b"
   ]
 }
