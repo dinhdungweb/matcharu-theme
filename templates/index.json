@@ -272,7 +272,7 @@
         "images_style": false,
         "image_ratio": "3/4",
         "custom_ratio": "21:9",
-        "custom_column": 3,
+        "custom_column": 4,
         "column_gap": 20,
         "collection_font_size": 14,
         "collection_font_weight": 500,
