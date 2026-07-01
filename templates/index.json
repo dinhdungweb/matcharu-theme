@@ -436,7 +436,7 @@
         "custom_width_images": false,
         "width_image": 1600,
         "images_style": false,
-        "image_ratio": "custom",
+        "image_ratio": "1/1",
         "custom_ratio": "21:9",
         "custom_column": 5,
         "column_gap": 50,
