@@ -289,7 +289,7 @@
             "open_link": "_blank",
             "subtext": "TRY before BUY",
             "title": "",
-            "content": "<p></p><p>Not sure what to choose? Try a sample pack!<br/>With so many varieties, why pick just one, our sample pack allows you to try all of them at once.<br/><br/><br/><br/></p>",
+            "content": "<p></p><p></p><p>Not sure what to choose? Try a sample pack!<br/>With so many varieties, why pick just one, our sample pack allows you to try all of them at once.<br/><br/><br/><br/></p>",
             "btn_content": "",
             "button_type": "link"
           }
@@ -316,7 +316,7 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_4.png",
+            "image": "shopify://shop_images/matcharu_tea_field.jpg",
             "image_mobile": "shopify://shop_images/Matcha_Cultivars_-_Matcharu_4.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
