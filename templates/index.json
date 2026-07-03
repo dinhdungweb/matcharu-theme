@@ -490,8 +490,8 @@
       ],
       "name": "t:sections.collection-list.name",
       "settings": {
-        "heading_logo_svg": "",
-        "heading": "",
+        "heading_logo_svg": "Our Partners",
+        "heading": "MATCHA REGIONS",
         "description": "",
         "text_alignment": "text-center",
         "container": "container",

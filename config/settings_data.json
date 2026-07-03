@@ -577,7 +577,9 @@
           "menu_mb_action": false,
           "menu_mb_category": false,
           "collection_list_all": true,
-          "collection_list_custom": []
+          "collection_list_custom": [
+            "matcha"
+          ]
         }
       },
       "footer-1": {
