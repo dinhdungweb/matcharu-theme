@@ -147,6 +147,13 @@
     "scrolling_text_XcXiHP": {
       "type": "scrolling-text",
       "blocks": {
+        "scrolling_text_4mGbXW": {
+          "type": "scrolling_text",
+          "settings": {
+            "content": "<p>FREE DELIVERY AND RETURNS FROM $120</p>",
+            "text_link": ""
+          }
+        },
         "scrolling_text_XTXMmR": {
           "type": "scrolling_text",
           "settings": {
@@ -191,6 +198,7 @@
         }
       },
       "block_order": [
+        "scrolling_text_4mGbXW",
         "scrolling_text_XTXMmR",
         "scrolling_text_qi98Cw",
         "scrolling_text_UX3ndh",
