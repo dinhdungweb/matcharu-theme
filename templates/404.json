@@ -68,11 +68,86 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
+    },
+    "collection_list_jgG8tk": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_item_xfqK4f": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "",
+            "collection": "tins"
+          }
+        },
+        "collection_item_DEcTBh": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "MATCHA 100g",
+            "collection": "pouch-bag",
+            "image": "shopify://shop_images/Saemidori_Matcha_100g.png"
+          }
+        },
+        "collection_item_xVbmUB": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "MATCHA 1000g",
+            "collection": "1kg-bag",
+            "image": "shopify://shop_images/Matcharu_18.png"
+          }
+        },
+        "collection_item_PgbpjC": {
+          "type": "collection_item",
+          "settings": {
+            "title_collection": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_xfqK4f",
+        "collection_item_DEcTBh",
+        "collection_item_xVbmUB",
+        "collection_item_PgbpjC"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "design_layout": "carousel",
+        "design_collection": "design-1",
+        "hover_effect": "zoom",
+        "show_count_product": true,
+        "custom_width_images": false,
+        "width_image": 200,
+        "images_style": false,
+        "image_ratio": "3/4",
+        "custom_ratio": "21:9",
+        "custom_column": 6,
+        "column_gap": 30,
+        "collection_font_size": 16,
+        "collection_font_weight": 500,
+        "collection_spacing": 0,
+        "count_font_size": 14,
+        "count_font_weight": 400,
+        "autoplay": false,
+        "loop": false,
+        "show_arrow": false,
+        "carousel_pagination": "carousel_none",
+        "reveal_on_scroll": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
     "6444a863-5ece-4b46-87e7-cfa83ed28286",
     "main",
-    "products_carousel_8Cq8YQ"
+    "products_carousel_8Cq8YQ",
+    "collection_list_jgG8tk"
   ]
 }
