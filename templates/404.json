@@ -94,20 +94,12 @@
             "collection": "1kg-bag",
             "image": "shopify://shop_images/Matcharu_-_Heki_-_Yutaka_Midori_-_Uji_2_6cfcc1f0-add5-4b92-991a-a0c418e05caa.png"
           }
-        },
-        "collection_item_PgbpjC": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "collection_item_xfqK4f",
         "collection_item_DEcTBh",
-        "collection_item_xVbmUB",
-        "collection_item_PgbpjC"
+        "collection_item_xVbmUB"
       ],
       "name": "t:sections.collection-list.name",
       "settings": {
