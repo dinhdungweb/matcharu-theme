@@ -92,7 +92,7 @@
           "settings": {
             "title_collection": "MATCHA 1000g",
             "collection": "1kg-bag",
-            "image": "shopify://shop_images/Matcharu_18.png"
+            "image": "shopify://shop_images/Matcharu_-_Heki_-_Yutaka_Midori_-_Uji_2_6cfcc1f0-add5-4b92-991a-a0c418e05caa.png"
           }
         },
         "collection_item_PgbpjC": {
@@ -116,7 +116,7 @@
         "description": "",
         "text_alignment": "text-center",
         "container": "container",
-        "color_scheme": "",
+        "color_scheme": "scheme-6de5e490-9ebf-4111-bce7-840b2d9c6f4c",
         "design_layout": "carousel",
         "design_collection": "design-1",
         "hover_effect": "zoom",
