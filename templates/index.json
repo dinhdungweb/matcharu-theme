@@ -410,7 +410,7 @@
         "heading": "MATCHA CULTIVARS",
         "description": "",
         "text_alignment": "text-center",
-        "container": "container",
+        "container": "container-fluid",
         "color_scheme": "",
         "design_layout": "carousel",
         "design_collection": "design-2",
