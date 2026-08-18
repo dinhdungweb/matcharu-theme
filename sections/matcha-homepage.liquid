@@ -1,0 +1,162 @@
+{{ 'matcha-homepage.css' | asset_url | stylesheet_tag }}
+
+<div class="mt-page" data-matcha-home>
+  <div class="mt-topbar">
+    <div class="mt-shell mt-topbar__inner">
+      <span>♧ &nbsp; Free shipping on orders over $60</span>
+      <span class="mt-topbar__world">◉ &nbsp; Worldwide shipping</span>
+      <span>English⌄ &nbsp;&nbsp; USD⌄</span>
+    </div>
+  </div>
+
+  <header class="mt-header">
+    <div class="mt-shell mt-header__inner">
+      <a href="{{ routes.root_url }}" class="mt-logo" aria-label="Matcha Tea home">
+        <svg viewBox="0 0 45 54" aria-hidden="true"><path d="M22 50V19M22 29C12 26 7 18 8 8c9 2 15 9 14 21ZM23 22C24 12 30 6 39 4c1 10-5 17-16 18ZM20 42C10 40 4 34 3 25c9 0 16 6 17 17ZM24 39c1-9 7-14 16-15 0 9-6 15-16 15Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span><strong>MATCHA</strong><small>TEA</small></span>
+      </a>
+      <nav class="mt-nav" aria-label="Main navigation">
+        <a href="#shop">Shop⌄</a><a href="#guide">Matcha Guide</a><a href="#story">About Us</a><a href="#journal">Blog</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="mt-actions">
+        <button aria-label="Search">⌕</button><button aria-label="Account">◎</button><button aria-label="Cart" class="mt-cart">♧<b>0</b></button>
+        <button class="mt-menu-btn" aria-label="Open menu" data-menu-toggle>☰</button>
+      </div>
+    </div>
+    <nav class="mt-mobile-nav" data-mobile-nav><a href="#shop">Shop</a><a href="#guide">Matcha Guide</a><a href="#story">About Us</a><a href="#journal">Blog</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="mt-hero" style="--hero:url('{{ 'matcha-hero.png' | asset_url }}')">
+      <div class="mt-shell mt-hero__content">
+        <div class="mt-hero__copy">
+          <p class="mt-eyebrow">PREMIUM JAPANESE MATCHA</p>
+          <h1>Pure Matcha.<br>Pure You.</h1>
+          <p>Premium Japanese matcha tea for a healthier body, calmer mind, and better you.</p>
+          <div class="mt-buttons"><a class="mt-btn mt-btn--solid" href="#shop">Shop Matcha</a><a class="mt-btn mt-btn--outline" href="#story">Learn More</a></div>
+          <div class="mt-rating"><span>★★★★★</span><b>4.9/5</b> from 2,300+ reviews</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-benefits">
+      <div class="mt-shell mt-benefits__grid">
+        <article><i>♧</i><div><b>100% Authentic</b><span>Sourced directly from Japan's finest farms</span></div></article>
+        <article><i>♨</i><div><b>Premium Quality</b><span>Ceremonial grade matcha, rich in flavor & nutrients</span></div></article>
+        <article><i>▣</i><div><b>Worldwide Shipping</b><span>Fast & reliable delivery to your door</span></div></article>
+        <article><i>♢</i><div><b>Secure Checkout</b><span>Safe payments & 30-day money-back guarantee</span></div></article>
+      </div>
+    </section>
+
+    <section class="mt-section" id="shop">
+      <div class="mt-shell">
+        <h2 class="mt-section-title">Shop by category</h2>
+        <div class="mt-categories mt-scroll-row">
+          <a href="#best" class="mt-category"><div class="mt-crop mt-crop--bowl"></div><b>Ceremonial Matcha</b><span>Shop now →</span></a>
+          <a href="#best" class="mt-category"><div class="mt-crop mt-crop--powder"></div><b>Daily Matcha</b><span>Shop now →</span></a>
+          <a href="#best" class="mt-category"><div class="mt-crop mt-crop--latte"></div><b>Matcha Lattes</b><span>Shop now →</span></a>
+          <a href="#best" class="mt-category"><div class="mt-crop mt-crop--iced"></div><b>Matcha Blends</b><span>Shop now →</span></a>
+          <a href="#best" class="mt-category"><div class="mt-crop mt-crop--whisk"></div><b>Accessories</b><span>Shop now →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-shell">
+      <div class="mt-ritual-banner" style="--ritual:url('{{ 'matcha-ritual.png' | asset_url }}')">
+        <div><h2>Elevate Your<br>Everyday Ritual</h2><p>Discover the perfect matcha for your lifestyle and nourish your best self.</p><a class="mt-btn mt-btn--light" href="#best">Explore collection</a></div>
+      </div>
+    </section>
+
+    <section class="mt-section mt-products" id="best">
+      <div class="mt-shell">
+        <div class="mt-heading-row"><h2 class="mt-section-title">Best sellers</h2><a href="#shop">View all</a></div>
+        <div class="mt-product-grid mt-scroll-row">
+          {% assign product_names = 'Ceremonial Grade Matcha 30g|Premium Grade Matcha 100g|Culinary Grade Matcha 100g|Matcha Latte Blend 200g|Bamboo Whisk (Chasen)|Matcha Bowl (Chawan)' | split: '|' %}
+          {% assign product_prices = '$29.90|$40.90|$24.90|$19.90|$16.90|$24.90' | split: '|' %}
+          {% for name in product_names %}
+            <article class="mt-product">
+              <div class="mt-product__image mt-product__image--{{ forloop.index }}"><em>{% if forloop.first %}BEST SELLER{% elsif forloop.index == 2 %}POPULAR{% elsif forloop.index == 4 %}NEW{% endif %}</em><span class="mt-product-object"></span></div>
+              <h3>{{ name }}</h3><div class="mt-stars">★★★★★ <small>({{ forloop.index | times: 137 | plus: 98 }})</small></div>
+              <div class="mt-product__bottom"><b>{{ product_prices[forloop.index0] }}</b><button aria-label="Add {{ name }} to cart">＋</button></div>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-shell" id="story">
+      <div class="mt-story" style="--field:url('{{ 'matcha-fields.png' | asset_url }}')">
+        <div class="mt-story__copy"><span class="mt-kicker">Why choose Matcha Tea</span><h2>Rooted in Tradition.<br>Committed to Quality.</h2><p>We work directly with family-run farms in Japan to bring you authentic, high-quality matcha. From shade-grown leaves to stone-ground powder, every step is crafted with care and respect for tradition.</p><div class="mt-mini-features"><span>♧ <b>Direct from Japan</b></span><span>♨ <b>Small Batch</b></span><span>◉ <b>Sustainable</b></span></div><a class="mt-btn mt-btn--solid" href="#">Learn our story</a></div>
+      </div>
+    </section>
+
+    <section class="mt-section" id="guide">
+      <div class="mt-shell">
+        <h2 class="mt-section-title">How to make matcha</h2>
+        <div class="mt-steps">
+          <article><span>1</span><div class="mt-step-img mt-step-img--1"></div><div><h3>Scoop</h3><p>Add 1–2 tsp of matcha into a bowl.</p></div></article>
+          <article><span>2</span><div class="mt-step-img mt-step-img--2"></div><div><h3>Whisk</h3><p>Add hot water (80°C) and whisk in a zigzag motion.</p></div></article>
+          <article><span>3</span><div class="mt-step-img mt-step-img--3"></div><div><h3>Enjoy</h3><p>Savor your smooth, frothy matcha. You've earned it.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-shell">
+      <div class="mt-subscribe-card">
+        <div class="mt-subscribe-card__image" style="--hero:url('{{ 'matcha-hero.png' | asset_url }}')"></div>
+        <div class="mt-subscribe-card__copy"><span class="mt-kicker">Subscribe & save</span><h2>Your Matcha, Always.</h2><p>Subscribe and save up to 15% on your favorite matcha. Flexible delivery, skip or cancel anytime.</p><div class="mt-sub-points"><span>♻ Save up to 15%</span><span>◷ Flexible</span><span>▤ Free shipping</span></div><a class="mt-btn mt-btn--solid" href="#shop">Choose your matcha</a></div>
+      </div>
+    </section>
+
+    <section class="mt-section mt-reviews">
+      <div class="mt-shell"><h2 class="mt-section-title">Loved by thousands</h2><div class="mt-review-grid mt-scroll-row">
+        <article><div class="mt-stars">★★★★★</div><p>“The best matcha I've ever had.”<br>So smooth, vibrant, and delicious. It's become a daily ritual!</p><div class="mt-person"><i>SK</i><span><b>Sarah L.</b><small>Verified Buyer</small></span></div></article>
+        <article><div class="mt-stars">★★★★★</div><p>“I can feel the difference in my focus and energy. Premium quality that you can truly taste.”</p><div class="mt-person"><i>MT</i><span><b>Michael T.</b><small>Verified Buyer</small></span></div></article>
+        <article><div class="mt-stars">★★★★★</div><p>“Fast shipping, beautiful packaging, and amazing flavor. Highly recommend!”</p><div class="mt-person"><i>JK</i><span><b>Jessica K.</b><small>Verified Buyer</small></span></div></article>
+      </div></div>
+    </section>
+
+    <section class="mt-section mt-community" id="journal">
+      <div class="mt-shell"><div class="mt-heading-row"><h2 class="mt-section-title">Join our matcha community</h2><span>@MATCHATEA</span></div><div class="mt-social-grid">
+        {% for i in (1..6) %}<a href="#" class="mt-social mt-social--{{ i }}" aria-label="Instagram post {{ i }}"></a>{% endfor %}
+      </div><a href="#" class="mt-instagram-link">Follow us on Instagram →</a></div>
+    </section>
+
+    <section class="mt-shell mt-newsletter" id="contact">
+      <div><h2>Stay Inspired</h2><p>Join our newsletter for exclusive offers, matcha tips,<br>and wellness inspiration.</p></div>
+      <form method="post" action="/contact#contact_form" accept-charset="UTF-8"><input type="hidden" name="form_type" value="customer"><div><input type="email" name="contact[email]" placeholder="Enter your email address" required><button type="submit">Subscribe</button></div><small>No spam, unsubscribe anytime.</small></form>
+    </section>
+  </main>
+
+  <footer class="mt-footer">
+    <div class="mt-shell mt-footer__grid">
+      <div><a href="{{ routes.root_url }}" class="mt-logo"><svg viewBox="0 0 45 54"><path d="M22 50V19M22 29C12 26 7 18 8 8c9 2 15 9 14 21ZM23 22C24 12 30 6 39 4c1 10-5 17-16 18ZM20 42C10 40 4 34 3 25c9 0 16 6 17 17ZM24 39c1-9 7-14 16-15 0 9-6 15-16 15Z" fill="none" stroke="currentColor" stroke-width="2"/></svg><span><strong>MATCHA</strong><small>TEA</small></span></a><p>Premium Japanese matcha tea<br>for a healthier, happier you.</p><div class="mt-social-icons">◎ ⓕ ♪ ▣ ◉</div></div>
+      <div><b>Shop</b><a href="#best">All Matcha</a><a href="#best">Ceremonial Grade</a><a href="#best">Daily Matcha</a><a href="#best">Matcha Blends</a><a href="#best">Accessories</a></div>
+      <div><b>Help</b><a href="#">Shipping & Delivery</a><a href="#">Returns & Refunds</a><a href="#">FAQs</a><a href="#">Track Your Order</a><a href="#contact">Contact Us</a></div>
+      <div><b>About</b><a href="#story">Our Story</a><a href="#story">Quality Promise</a><a href="#story">Sustainability</a><a href="#journal">Blog</a><a href="#guide">Matcha Guide</a></div>
+      <div><b>Global</b><a href="#">Worldwide Shipping</a><a href="#">International Stores</a><a href="#">Wholesale Inquiries</a><div class="mt-payments"><span>VISA</span><span>●●</span><span>AMEX</span><span>Pay</span></div></div>
+    </div>
+    <div class="mt-footer__bottom"><div class="mt-shell"><span>© {{ 'now' | date: '%Y' }} Matcha Tea. All rights reserved.</span><span>Privacy Policy &nbsp;&nbsp;&nbsp; Terms of Service &nbsp;&nbsp;&nbsp; Cookie Policy</span><span>◎ Shipping to 150+ countries</span></div></div>
+  </footer>
+</div>
+
+<script>
+  (() => {
+    const root = document.querySelector('[data-matcha-home]');
+    if (!root) return;
+    const button = root.querySelector('[data-menu-toggle]');
+    const nav = root.querySelector('[data-mobile-nav]');
+    button?.addEventListener('click', () => nav.classList.toggle('is-open'));
+    nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('is-open')));
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Matcha homepage",
+  "tag": "section",
+  "class": "matcha-homepage-section",
+  "settings": [],
+  "presets": [{ "name": "Matcha homepage" }]
+}
+{% endschema %}
