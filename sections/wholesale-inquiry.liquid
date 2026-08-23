@@ -10,7 +10,7 @@
   style="--wholesale-inquiry-bg: {{ st.background_color }}; --wholesale-inquiry-panel: {{ st.panel_color }}; --wholesale-inquiry-text: {{ st.text_color }}; --wholesale-inquiry-accent: {{ st.accent_color }}; --wholesale-inquiry-padding-top: {{ st.padding_top }}px; --wholesale-inquiry-padding-bottom: {{ st.padding_bottom }}px;"
   aria-labelledby="WholesaleInquiryTitle-{{ section.id }}"
 >
-  <div class="container wholesale-inquiry__grid">
+  <div class="{{ st.container }} section-full wholesale-inquiry__grid">
     <div class="wholesale-inquiry__intro">
       {%- if st.form_image != blank -%}
         <div class="wholesale-inquiry__media">
@@ -452,6 +452,34 @@
     "groups": ["header", "footer", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "container",
+      "label": "t:sections.all.layout.label",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "t:sections.all.layout.options__1.label"
+        },
+        {
+          "value": "container-fluid",
+          "label": "t:sections.all.layout.options__2.label"
+        },
+        {
+          "value": "strecth-width",
+          "label": "t:sections.all.layout.options__3.label"
+        },
+        {
+          "value": "full-width",
+          "label": "t:sections.all.layout.options__4.label"
+        }
+      ]
+    },
     {
       "type": "text",
       "id": "eyebrow",

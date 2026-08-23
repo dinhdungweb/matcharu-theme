@@ -12,6 +12,7 @@
     "hero": {
       "type": "wholesale-hero",
       "settings": {
+        "container": "container-fluid",
         "eyebrow": "Matcharu Wholesale",
         "heading": "Japanese Matcha for Cafés & Retailers Ready to Grow",
         "description": "<p>Shop bulk-ready formats online or talk with us about volume pricing and the right matcha for your menu or shelves.</p>",
@@ -69,6 +70,7 @@
         "personal-support"
       ],
       "settings": {
+        "container": "container",
         "benefits_eyebrow": "Made for business",
         "benefits_heading": "Wholesale matcha without the guesswork",
         "benefits_description": "<p>Explore business-ready formats, compare what fits your use, and get personal help when your needs go beyond an online order.</p>",
@@ -161,6 +163,7 @@
         "step-order"
       ],
       "settings": {
+        "container": "container",
         "benefits_eyebrow": "",
         "benefits_heading": "",
         "benefits_description": "",
@@ -249,6 +252,7 @@
     "inquiry": {
       "type": "wholesale-inquiry",
       "settings": {
+        "container": "container",
         "eyebrow": "Request a wholesale quote",
         "heading": "Tell us what your business needs",
         "description": "<p>Share your product interests, expected volume and destination. We will use those details to discuss the most suitable next step.</p>",
