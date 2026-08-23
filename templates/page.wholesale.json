@@ -14,6 +14,13 @@
       "name": "Wholesale hero",
       "settings": {
         "container": "full-width",
+        "edge_to_edge_split": true,
+        "content_padding": 48,
+        "content_padding_mobile": 20,
+        "hero_height": 680,
+        "image_width": 71,
+        "content_width": 660,
+        "image_position": "center top",
         "eyebrow": "Matcharu Wholesale",
         "heading": "Japanese Matcha for Cafés & Retailers",
         "description": "<p>Ready to grow with bulk-ready formats, Japanese selection and personal support for your menu or shelves.</p>",
