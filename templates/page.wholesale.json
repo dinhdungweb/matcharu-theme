@@ -72,7 +72,7 @@
       ],
       "name": "Wholesale content",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "benefits_eyebrow": "Made for business",
         "benefits_heading": "Wholesale matcha without the guesswork",
         "benefits_description": "<p>Explore business-ready formats, compare what fits your use, and get personal help when your needs go beyond an online order.</p>",
