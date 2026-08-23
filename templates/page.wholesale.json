@@ -53,7 +53,7 @@
         "text_content": "",
         "view_all_enable": false,
         "text_view_all": "View All",
-        "load_more_button_enable": false,
+        "load_more_button_enable": true,
         "number_of_rows": 2,
         "button_action": "load",
         "button_label": "Load more",
