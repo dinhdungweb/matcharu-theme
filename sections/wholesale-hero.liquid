@@ -1,0 +1,350 @@
+{%- liquid
+  assign st = section.settings
+  assign primary_href = st.primary_link
+  assign secondary_href = st.secondary_link
+  assign hero_image = st.hero_image | default: st.hero_image_mobile
+  assign hero_alt = st.hero_image_alt | default: st.heading
+
+  if primary_href == blank
+    assign primary_href = '#product-grid'
+  endif
+  if secondary_href == blank
+    assign secondary_href = '#wholesale-inquiry'
+  endif
+-%}
+
+<section
+  class="wholesale-hero"
+  style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }};"
+  aria-labelledby="WholesaleHeroTitle-{{ section.id }}"
+>
+  <div class="container-fluid wholesale-hero__grid">
+    <div class="wholesale-hero__content">
+      {%- if st.eyebrow != blank -%}
+        <p class="wholesale-hero__eyebrow">{{ st.eyebrow | escape }}</p>
+      {%- endif -%}
+
+      {%- if st.heading != blank -%}
+        <h1 id="WholesaleHeroTitle-{{ section.id }}" class="wholesale-hero__title">
+          {{ st.heading | escape }}
+        </h1>
+      {%- endif -%}
+
+      {%- if st.description != blank -%}
+        <div class="wholesale-hero__description rte">{{ st.description }}</div>
+      {%- endif -%}
+
+      <div class="wholesale-hero__actions">
+        {%- if st.primary_label != blank -%}
+          <a class="button wholesale-hero__button wholesale-hero__button--primary" href="{{ primary_href }}">
+            {{ st.primary_label | escape }}
+          </a>
+        {%- endif -%}
+        {%- if st.secondary_label != blank -%}
+          <a class="button wholesale-hero__button wholesale-hero__button--secondary" href="{{ secondary_href }}">
+            {{ st.secondary_label | escape }}
+          </a>
+        {%- endif -%}
+      </div>
+
+      {%- if st.note != blank -%}
+        <p class="wholesale-hero__note">{{ st.note | escape }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="wholesale-hero__media">
+      {%- if hero_image != blank -%}
+        <picture>
+          {%- if st.hero_image_mobile != blank -%}
+            <source
+              media="(max-width: 749px)"
+              srcset="
+                {{ st.hero_image_mobile | image_url: width: 480 }} 480w,
+                {{ st.hero_image_mobile | image_url: width: 750 }} 750w,
+                {{ st.hero_image_mobile | image_url: width: 1000 }} 1000w
+              "
+              sizes="100vw"
+            >
+          {%- endif -%}
+          {{-
+            hero_image
+            | image_url: width: 2000
+            | image_tag:
+              widths: '750, 1000, 1200, 1600, 2000',
+              sizes: '(min-width: 990px) 54vw, 100vw',
+              loading: 'eager',
+              fetchpriority: 'high',
+              alt: hero_alt,
+              class: 'wholesale-hero__image'
+          -}}
+        </picture>
+      {%- else -%}
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'wholesale-hero__placeholder' }}
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+  .wholesale-hero {
+    background: var(--wholesale-hero-bg, #1a3128);
+    color: var(--wholesale-hero-text, #ffffff);
+    overflow: hidden;
+  }
+
+  .wholesale-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    min-height: clamp(620px, 72vw, 840px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .wholesale-hero__content {
+    align-self: center;
+    max-width: 680px;
+    padding: clamp(72px, 8vw, 132px) clamp(28px, 7vw, 112px);
+  }
+
+  .wholesale-hero__eyebrow {
+    margin: 0 0 18px;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .wholesale-hero__title {
+    max-width: 760px;
+    margin: 0;
+    color: inherit;
+    font-size: clamp(42px, 5vw, 76px);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.02;
+  }
+
+  .wholesale-hero__description {
+    max-width: 590px;
+    margin-top: 28px;
+    color: inherit;
+    font-size: clamp(16px, 1.25vw, 19px);
+    line-height: 1.75;
+    opacity: 0.88;
+  }
+
+  .wholesale-hero__description p {
+    margin: 0;
+  }
+
+  .wholesale-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 38px;
+  }
+
+  .wholesale-hero__button {
+    min-width: 190px;
+    min-height: 52px;
+    padding: 14px 24px;
+    border: 1px solid var(--wholesale-hero-accent, #cfddc2);
+    border-radius: 0;
+    font-weight: 600;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+  }
+
+  .wholesale-hero__button--primary {
+    background: var(--wholesale-hero-accent, #cfddc2);
+    color: #1a3128;
+  }
+
+  .wholesale-hero__button--secondary {
+    background: transparent;
+    color: var(--wholesale-hero-text, #ffffff);
+  }
+
+  .wholesale-hero__button--primary:hover,
+  .wholesale-hero__button--primary:focus-visible {
+    border-color: #ffffff;
+    background: #ffffff;
+    color: #1a3128;
+  }
+
+  .wholesale-hero__button--secondary:hover,
+  .wholesale-hero__button--secondary:focus-visible {
+    background: var(--wholesale-hero-text, #ffffff);
+    color: #1a3128;
+  }
+
+  .wholesale-hero__button:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+  }
+
+  .wholesale-hero__note {
+    margin: 22px 0 0;
+    color: inherit;
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 0.72;
+  }
+
+  .wholesale-hero__media,
+  .wholesale-hero__media picture {
+    display: block;
+    min-height: 100%;
+  }
+
+  .wholesale-hero__image,
+  .wholesale-hero__placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: clamp(620px, 72vw, 840px);
+    object-fit: cover;
+  }
+
+  .wholesale-hero__placeholder {
+    background: #cfddc2;
+  }
+
+  @media (max-width: 989px) {
+    .wholesale-hero__grid {
+      grid-template-columns: 1fr;
+      min-height: 0;
+    }
+
+    .wholesale-hero__content {
+      max-width: 760px;
+      padding: 70px 28px 64px;
+    }
+
+    .wholesale-hero__image,
+    .wholesale-hero__placeholder {
+      min-height: 460px;
+      aspect-ratio: 4 / 3;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .wholesale-hero__content {
+      padding: 56px 20px 48px;
+    }
+
+    .wholesale-hero__actions {
+      display: grid;
+    }
+
+    .wholesale-hero__button {
+      width: 100%;
+    }
+
+    .wholesale-hero__image,
+    .wholesale-hero__placeholder {
+      min-height: 380px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Wholesale hero",
+  "disabled_on": {
+    "groups": ["header", "footer", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Matcharu Wholesale"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Japanese Matcha for Cafés & Retailers Ready to Grow"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Shop bulk-ready formats online or talk with us about volume pricing and the right matcha for your menu or shelves.</p>"
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Primary button label",
+      "default": "Shop Bulk Formats"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Primary button link",
+      "info": "Defaults to #product-grid when left blank."
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Secondary button label",
+      "default": "Request a Wholesale Quote"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Secondary button link",
+      "info": "Defaults to #wholesale-inquiry when left blank."
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Supporting note",
+      "default": "Order available bulk packs directly or contact us for larger and recurring needs."
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image_mobile",
+      "label": "Mobile image"
+    },
+    {
+      "type": "text",
+      "id": "hero_image_alt",
+      "label": "Image alt text",
+      "default": "Japanese tea fields where Matcharu matcha is sourced"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#1A3128"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent color",
+      "default": "#CFDDC2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wholesale hero"
+    }
+  ]
+}
+{% endschema %}

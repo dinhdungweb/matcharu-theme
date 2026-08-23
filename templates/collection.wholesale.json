@@ -9,232 +9,279 @@
  */
 {
   "sections": {
-    "main-collection-heading": {
-      "type": "main-collection-heading",
+    "hero": {
+      "type": "wholesale-hero",
+      "settings": {
+        "eyebrow": "Matcharu Wholesale",
+        "heading": "Japanese Matcha for Cafés & Retailers Ready to Grow",
+        "description": "<p>Shop bulk-ready formats online or talk with us about volume pricing and the right matcha for your menu or shelves.</p>",
+        "primary_label": "Shop Bulk Formats",
+        "secondary_label": "Request a Wholesale Quote",
+        "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
+        "hero_image": "shopify://shop_images/Shizuoka_-_Satoen_Matcha_Tea_Farm.png",
+        "hero_image_mobile": "shopify://shop_images/Shizuoka_Satoen_Matcha_Tea_Farm.png",
+        "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
+        "background_color": "#1A3128",
+        "text_color": "#FFFFFF",
+        "accent_color": "#CFDDC2"
+      }
+    },
+    "benefits": {
+      "type": "wholesale-content",
       "blocks": {
-        "f06a38ad-a426-42c0-a5ff-48ae0218618e": {
-          "type": "1",
+        "japanese-selection": {
+          "type": "benefit",
           "settings": {
-            "text_fs": 45
+            "benefit_kicker": "01",
+            "benefit_heading": "Japanese selection",
+            "benefit_text": "<p>Compare matcha profiles and origins already available in our wholesale catalog.</p>"
+          }
+        },
+        "bulk-formats": {
+          "type": "benefit",
+          "settings": {
+            "benefit_kicker": "02",
+            "benefit_heading": "Bulk-ready formats",
+            "benefit_text": "<p>Choose practical sizes for beverage service, food preparation or retail operations.</p>"
+          }
+        },
+        "sample-first": {
+          "type": "benefit",
+          "settings": {
+            "benefit_kicker": "03",
+            "benefit_heading": "Sample before scaling",
+            "benefit_text": "<p>Begin with an available sample to explore flavor, color and fit before a larger purchase.</p>"
+          }
+        },
+        "personal-support": {
+          "type": "benefit",
+          "settings": {
+            "benefit_kicker": "04",
+            "benefit_heading": "Personal support",
+            "benefit_text": "<p>Share your volume and destination when you need help beyond an online order.</p>"
           }
         }
       },
       "block_order": [
-        "f06a38ad-a426-42c0-a5ff-48ae0218618e"
+        "japanese-selection",
+        "bulk-formats",
+        "sample-first",
+        "personal-support"
       ],
       "settings": {
-        "container": "container",
-        "color_scheme": "default-color-scheme",
-        "show_banner": true,
-        "use_collection_image": false,
-        "min_height": 200,
-        "parallax": false,
-        "show_overlay": false,
-        "overlay": 54,
-        "design": "text-overlay-image",
-        "text_postion": "text-center"
-      }
-    },
-    "8498460c-0376-40d1-bafc-199edbe0edfc": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-0": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "Shirts",
-            "collection": "women-s-shirts"
-          }
-        },
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-1": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": "top-dresses"
-          }
-        },
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-2": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": "blazers"
-          }
-        },
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-3": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": "sportswear"
-          }
-        },
-        "616f3472-abe6-41ef-8d49-4e190d1fc5cc": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": "top-t-shirt"
-          }
-        },
-        "36a53b4a-830c-4660-a410-d73343bf9d7d": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "",
-            "collection": "winter-coat"
-          }
-        },
-        "f2fc114d-493a-4996-a5d3-680228e6a3f0": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "New Arrivals",
-            "collection": "new-arrivals"
-          }
-        }
-      },
-      "block_order": [
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-0",
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-1",
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-2",
-        "template--16567751475447__8498460c-0376-40d1-bafc-199edbe0edfc-16665857567f9937b1-3",
-        "616f3472-abe6-41ef-8d49-4e190d1fc5cc",
-        "36a53b4a-830c-4660-a410-d73343bf9d7d",
-        "f2fc114d-493a-4996-a5d3-680228e6a3f0"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading_logo_svg": "",
-        "heading": "",
-        "description": "",
-        "text_alignment": "text-center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "design_layout": "carousel",
-        "design_collection": "design-1",
-        "hover_effect": "zoom",
-        "show_count_product": false,
-        "custom_width_images": false,
-        "width_image": 200,
-        "images_style": false,
-        "image_ratio": "3/4",
-        "custom_ratio": "21:9",
-        "custom_column": 5,
-        "column_gap": 30,
-        "collection_font_size": 16,
-        "collection_font_weight": 500,
-        "collection_spacing": 0,
-        "count_font_size": 14,
-        "count_font_weight": 400,
-        "autoplay": false,
-        "loop": false,
-        "show_arrow": false,
-        "carousel_pagination": "carousel_none",
-        "reveal_on_scroll": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "reset_spacing": true
-      }
-    },
-    "439e38df-206c-40a8-9cd5-fc0e5f00f9d3": {
-      "type": "spacing",
-      "settings": {
-        "spacing_desktop": 30,
-        "spacing_moible": 10
+        "benefits_eyebrow": "Made for business",
+        "benefits_heading": "Wholesale matcha without the guesswork",
+        "benefits_description": "<p>Explore business-ready formats, compare what fits your use, and get personal help when your needs go beyond an online order.</p>",
+        "catalog_eyebrow": "Shop wholesale",
+        "catalog_heading": "Bulk formats ready to order",
+        "catalog_description": "<p>Browse current matcha, hojicha and sample options. For larger or recurring requirements, request a tailored quote below.</p>",
+        "business_eyebrow": "",
+        "business_heading": "",
+        "business_description": "",
+        "business_image_alt": "Matcharu bulk matcha prepared for business use",
+        "process_eyebrow": "",
+        "process_heading": "",
+        "process_description": "",
+        "oem_eyebrow": "",
+        "oem_heading": "",
+        "oem_description": "",
+        "oem_button_label": "",
+        "background_color": "#F8F5F0",
+        "card_background": "#FFFFFF",
+        "text_color": "#1A3128",
+        "accent_color": "#CFDDC2",
+        "padding_top": 88,
+        "padding_bottom": 56
       }
     },
     "product-grid": {
       "type": "main-collection-product",
+      "settings": {
+        "container": "container",
+        "enable_list_view": false,
+        "products_column": 4,
+        "number_products_grid": 12,
+        "number_products_list": 12,
+        "pagination": "load_more",
+        "product_page_count": true,
+        "product_sort_options": true,
+        "progress_bar": true,
+        "enable_sidebar": false,
+        "sidebar_position": "filter_canvas",
+        "show_count": true
+      }
+    },
+    "business": {
+      "type": "wholesale-content",
       "blocks": {
-        "35c81196-1f20-4b1d-98e4-1bea284fe6d7": {
-          "type": "categories",
+        "cafes": {
+          "type": "audience",
           "settings": {
-            "title": "Category",
-            "menu": "shop"
+            "audience_heading": "For cafés & food service",
+            "audience_text": "<p>Find bulk formats for lattes, signature drinks, desserts and dependable daily service.</p>"
           }
         },
-        "3b46edaf-55ef-46a8-b8fe-a6eb39ade3a8": {
-          "type": "filter_by_dynamic",
-          "settings": {}
-        },
-        "2039056a-3cc3-4534-a522-d35bdfbaef6c": {
-          "type": "popular_product",
+        "retailers": {
+          "type": "audience",
           "settings": {
-            "title": "Featured Product",
-            "collection": "bulk-whosesale",
-            "type_product": "list",
-            "maximum": 3
+            "audience_heading": "For retailers",
+            "audience_text": "<p>Build a focused matcha and hojicha assortment with products your customers can explore.</p>"
+          }
+        },
+        "step-explore": {
+          "type": "process",
+          "settings": {
+            "process_step": "Step 01",
+            "process_heading": "Explore or sample",
+            "process_text": "<p>Browse current bulk formats or begin with a sample before choosing a larger quantity.</p>"
+          }
+        },
+        "step-choose": {
+          "type": "process",
+          "settings": {
+            "process_step": "Step 02",
+            "process_heading": "Choose product & volume",
+            "process_text": "<p>Consider your menu or retail use, expected volume and preferred matcha profile.</p>"
+          }
+        },
+        "step-order": {
+          "type": "process",
+          "settings": {
+            "process_step": "Step 03",
+            "process_heading": "Order or request a quote",
+            "process_text": "<p>Buy listed packs online, or send your details when you need a tailored wholesale conversation.</p>"
           }
         }
       },
       "block_order": [
-        "35c81196-1f20-4b1d-98e4-1bea284fe6d7",
-        "3b46edaf-55ef-46a8-b8fe-a6eb39ade3a8",
-        "2039056a-3cc3-4534-a522-d35bdfbaef6c"
+        "cafes",
+        "retailers",
+        "step-explore",
+        "step-choose",
+        "step-order"
       ],
       "settings": {
-        "container": "container-fluid",
-        "enable_list_view": false,
-        "products_column": 4,
-        "number_products_grid": 12,
-        "number_products_list": 4,
-        "pagination": "infinit_scrolling",
-        "product_page_count": true,
-        "product_sort_options": true,
-        "progress_bar": true,
-        "enable_sidebar": true,
-        "sidebar_position": "dropdonw_sidebar",
-        "show_count": true
+        "benefits_eyebrow": "",
+        "benefits_heading": "",
+        "benefits_description": "",
+        "catalog_eyebrow": "",
+        "catalog_heading": "",
+        "catalog_description": "",
+        "business_eyebrow": "Built around your business",
+        "business_heading": "Made for the way you sell",
+        "business_description": "<p>Whether you are building a matcha menu or curating a retail shelf, start with the format and flavor profile that suits your customers.</p>",
+        "business_image": "shopify://shop_images/Matcharu_13.png",
+        "business_image_alt": "Matcharu bulk matcha prepared for café and retail use",
+        "process_eyebrow": "A simple way to start",
+        "process_heading": "From first sample to regular supply",
+        "process_description": "<p>Buy available formats immediately or share your requirements so we can help with the next step.</p>",
+        "oem_eyebrow": "Need your own packaging?",
+        "oem_heading": "Explore Matcharu White Label & OEM",
+        "oem_description": "<p>Wholesale products are available here. For branded tins, pouches and custom packaging, visit our dedicated OEM collection.</p>",
+        "oem_button_label": "Explore White Label & OEM",
+        "oem_link": "shopify://collections/oem",
+        "background_color": "#FFFFFF",
+        "card_background": "#F8F5F0",
+        "text_color": "#1A3128",
+        "accent_color": "#CFDDC2",
+        "padding_top": 104,
+        "padding_bottom": 104
       }
     },
-    "contact_form_R8tf8M": {
-      "type": "contact-form",
-      "name": "Contact Form",
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "order-online": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I order wholesale products directly online?",
+            "content": "<p>Yes. Products and pack sizes shown in the catalog can be purchased directly online while available. Use the inquiry form for larger, recurring or more specific requirements.</p>"
+          }
+        },
+        "pricing": {
+          "type": "faq",
+          "settings": {
+            "title": "How is a wholesale quote prepared?",
+            "content": "<p>Quotes depend on the products you are considering, expected volume and delivery destination. Share those details in the form below so we can discuss the appropriate next step.</p>"
+          }
+        },
+        "samples": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I try samples before placing a larger order?",
+            "content": "<p>Yes. Browse the available sample products in this collection to explore a matcha before choosing a larger format.</p>"
+          }
+        },
+        "oem": {
+          "type": "faq",
+          "settings": {
+            "title": "Do you offer White Label or OEM packaging?",
+            "content": "<p>Yes. White Label and OEM options are presented separately in our <a href=\"/collections/oem\">OEM collection</a>. You can also mention packaging needs in your inquiry.</p>"
+          }
+        },
+        "shipping": {
+          "type": "faq",
+          "settings": {
+            "title": "Can you ship to my country or region?",
+            "content": "<p>Available checkout destinations and shipping options are shown when ordering online. For a tailored quote, include your destination so shipping can be considered with your request.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "order-online",
+        "pricing",
+        "samples",
+        "oem",
+        "shipping"
+      ],
       "settings": {
-        "container": "container-fluid px-0",
-        "banner_image": "shopify://shop_images/Before_1.png",
-        "contact_form_heading": "",
-        "contact_form_sub_heading": "<h4></h4><h4>For white-label, OEM, or wholesale orders — as well as any special requests — please feel free to contact us for the best possible solution.<br/></h4>"
-      }
-    },
-    "sub-collection": {
-      "type": "sub-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
+        "heading_logo_svg": "",
+        "heading": "Wholesale FAQs",
+        "description": "<p>Answers to common questions about ordering, samples, quotes and packaging.</p>",
         "text_alignment": "text-center",
         "container": "container",
-        "color_scheme": "",
-        "design_layout": "carousel",
-        "design_collection": "design-1",
-        "hover_effect": "zoom",
-        "show_count_product": true,
-        "hide_image_collection": false,
-        "collection_center": false,
-        "custom_width_images": false,
-        "width_image": 200,
-        "images_style": "square",
-        "image_ratio": "3/4",
-        "custom_ratio": "21:9",
-        "custom_column": 6,
-        "column_gap": 30,
-        "collection_font_size": 16,
-        "collection_font_weight": 500,
-        "collection_spacing": 0,
-        "count_font_size": 14,
-        "count_font_weight": 400,
-        "autoplay": false,
-        "loop": false,
-        "show_arrow": false,
-        "carousel_pagination": "carousel_none",
-        "reveal_on_scroll": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "color_scheme": "default-color-scheme",
+        "padding_top": 96,
+        "padding_bottom": 96,
         "reset_spacing": false
+      }
+    },
+    "inquiry": {
+      "type": "wholesale-inquiry",
+      "settings": {
+        "eyebrow": "Request a wholesale quote",
+        "heading": "Tell us what your business needs",
+        "description": "<p>Share your product interests, expected volume and destination. We will use those details to discuss the most suitable next step.</p>",
+        "contact_note": "Prefer email? Contact matcharuus@gmail.com",
+        "form_image": "shopify://shop_images/Matcharu_13.png",
+        "form_image_alt": "Matcharu bulk matcha prepared for wholesale customers",
+        "name_label": "Name",
+        "email_label": "Business email",
+        "company_label": "Company",
+        "phone_label": "Phone (optional)",
+        "business_type_label": "Business type",
+        "country_label": "Country / region",
+        "product_interest_label": "Product interest",
+        "volume_label": "Estimated monthly volume",
+        "message_label": "Additional details (optional)",
+        "submit_label": "Request a Wholesale Quote",
+        "submit_note": "Submitting this form does not commit you to an order.",
+        "success_message": "Thank you. Your wholesale inquiry has been sent.",
+        "background_color": "#1A3128",
+        "panel_color": "#F8F5F0",
+        "text_color": "#FFFFFF",
+        "accent_color": "#CFDDC2",
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     }
   },
   "order": [
-    "main-collection-heading",
-    "8498460c-0376-40d1-bafc-199edbe0edfc",
-    "439e38df-206c-40a8-9cd5-fc0e5f00f9d3",
+    "hero",
+    "benefits",
     "product-grid",
-    "contact_form_R8tf8M",
-    "sub-collection"
+    "business",
+    "faq",
+    "inquiry"
   ]
 }
