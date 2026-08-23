@@ -66,6 +66,13 @@
     "wholesale_content_Lb3zL9": {
       "type": "wholesale-content",
       "blocks": {
+        "audience_piQzz3": {
+          "type": "audience",
+          "settings": {
+            "audience_heading": "For cafés & food service",
+            "audience_text": "<p>Find bulk formats for lattes, signature drinks, desserts and daily service.</p>"
+          }
+        },
         "audience_8GAXXD": {
           "type": "audience",
           "settings": {
@@ -107,6 +114,7 @@
         }
       },
       "block_order": [
+        "audience_piQzz3",
         "audience_8GAXXD",
         "benefit_WzeaTB",
         "benefit_78gpey",
