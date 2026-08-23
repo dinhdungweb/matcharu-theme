@@ -15,8 +15,8 @@
       "settings": {
         "container": "full-width",
         "eyebrow": "Matcharu Wholesale",
-        "heading": "Japanese Matcha for Cafés & Retailers Ready to Grow",
-        "description": "<p>Shop bulk-ready formats online or talk with us about volume pricing and the right matcha for your menu or shelves.</p>",
+        "heading": "Japanese Matcha for Cafés & Retailers",
+        "description": "<p>Ready to grow with bulk-ready formats, Japanese selection and personal support for your menu or shelves.</p>",
         "primary_label": "Shop Bulk Formats",
         "primary_link": "",
         "secondary_label": "Request a Wholesale Quote",
@@ -25,6 +25,7 @@
         "hero_image": "shopify://shop_images/Shizuoka_Matcha_Tea_Field.png",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
         "background_color": "#1a3128",
+        "canvas_color": "#f8f5f0",
         "text_color": "#ffffff",
         "accent_color": "#cfddc2"
       }
