@@ -29,6 +29,40 @@
         "accent_color": "#cfddc2"
       }
     },
+    "products_grid_T3wFtt": {
+      "type": "products-grid",
+      "name": "t:sections.products-grid.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "Bestseller Product",
+        "description": "",
+        "text_alignment": "text-center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "collection": "bulk-wholesale-discounted-large-orders-for-businesses",
+        "limit_products": 8,
+        "item_desktop": 4,
+        "column_gap": 30,
+        "enable_banner": false,
+        "enable_sticky_banner": false,
+        "banner_type": "image",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "banner_position": "position-left",
+        "banner_link": "",
+        "banner_width": 30,
+        "text_content": "",
+        "view_all_enable": false,
+        "text_view_all": "View All",
+        "load_more_button_enable": false,
+        "number_of_rows": 2,
+        "button_action": "load",
+        "button_label": "Load more",
+        "button_type": "primary",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "reset_spacing": true
+      }
+    },
     "wholesale_content_Lb3zL9": {
       "type": "wholesale-content",
       "blocks": {
@@ -138,6 +172,7 @@
   },
   "order": [
     "wholesale_hero_CqEWNK",
+    "products_grid_T3wFtt",
     "wholesale_content_Lb3zL9",
     "wholesale_inquiry_RF8aRd",
     "main"
