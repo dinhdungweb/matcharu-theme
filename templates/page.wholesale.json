@@ -13,6 +13,7 @@
       "type": "wholesale-hero",
       "name": "Wholesale hero",
       "settings": {
+        "container": "full-width",
         "eyebrow": "Matcharu Wholesale",
         "heading": "Japanese Matcha for Cafés & Retailers Ready to Grow",
         "description": "<p>Shop bulk-ready formats online or talk with us about volume pricing and the right matcha for your menu or shelves.</p>",
@@ -22,9 +23,9 @@
         "secondary_link": "",
         "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
-        "background_color": "#1A3128",
-        "text_color": "#FFFFFF",
-        "accent_color": "#CFDDC2"
+        "background_color": "#1a3128",
+        "text_color": "#ffffff",
+        "accent_color": "#cfddc2"
       }
     },
     "wholesale_content_Lb3zL9": {
@@ -71,6 +72,7 @@
       ],
       "name": "Wholesale content",
       "settings": {
+        "container": "container",
         "benefits_eyebrow": "Made for business",
         "benefits_heading": "Wholesale matcha without the guesswork",
         "benefits_description": "<p>Explore business-ready formats, compare what fits your use, and get personal help when your needs go beyond an online order.</p>",
@@ -89,23 +91,19 @@
         "oem_description": "<p>Wholesale products are available here. For branded tins, pouches and custom packaging, visit our dedicated OEM collection.</p>",
         "oem_button_label": "Explore White Label & OEM",
         "oem_link": "",
-        "background_color": "#F8F5F0",
-        "card_background": "#FFFFFF",
-        "text_color": "#1A3128",
-        "accent_color": "#CFDDC2",
+        "background_color": "#f8f5f0",
+        "card_background": "#ffffff",
+        "text_color": "#1a3128",
+        "accent_color": "#cfddc2",
         "padding_top": 88,
         "padding_bottom": 88
       }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {}
     },
     "wholesale_inquiry_RF8aRd": {
       "type": "wholesale-inquiry",
       "name": "Wholesale inquiry",
       "settings": {
+        "container": "container",
         "eyebrow": "Request a wholesale quote",
         "heading": "Tell us what your business needs",
         "description": "<p>Share your product interests, expected volume and destination. We will use those details to discuss the most suitable next step.</p>",
@@ -123,13 +121,18 @@
         "submit_label": "Request a Wholesale Quote",
         "submit_note": "Submitting this form does not commit you to an order.",
         "success_message": "Thank you. Your wholesale inquiry has been sent.",
-        "background_color": "#1A3128",
-        "panel_color": "#F8F5F0",
-        "text_color": "#FFFFFF",
-        "accent_color": "#CFDDC2",
+        "background_color": "#1a3128",
+        "panel_color": "#f8f5f0",
+        "text_color": "#ffffff",
+        "accent_color": "#cfddc2",
         "padding_top": 96,
         "padding_bottom": 96
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
     }
   },
   "order": [
