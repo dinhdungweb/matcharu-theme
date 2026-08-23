@@ -103,7 +103,7 @@
       "type": "wholesale-inquiry",
       "name": "Wholesale inquiry",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "eyebrow": "Request a wholesale quote",
         "heading": "Tell us what your business needs",
         "description": "<p>Share your product interests, expected volume and destination. We will use those details to discuss the most suitable next step.</p>",
