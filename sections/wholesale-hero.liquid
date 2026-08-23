@@ -4,6 +4,18 @@
   assign secondary_href = st.secondary_link
   assign hero_image = st.hero_image | default: st.hero_image_mobile
   assign hero_alt = st.hero_image_alt | default: st.heading
+  assign hero_container = st.container | default: 'full-width'
+  assign edge_to_edge_split = st.edge_to_edge_split | default: true, allow_false: true
+  assign content_padding = st.content_padding | default: 48
+  assign content_padding_mobile = st.content_padding_mobile | default: 20
+  assign hero_height = st.hero_height | default: 680
+  assign image_width = st.image_width | default: 52
+  assign content_width = st.content_width | default: 650
+  assign image_position = st.image_position | default: 'center center'
+
+  if edge_to_edge_split
+    assign hero_container = 'full-width'
+  endif
 
   if primary_href == blank
     assign primary_href = '#product-grid'
@@ -15,10 +27,10 @@
 
 <section
   class="wholesale-hero"
-  style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }}; --wholesale-hero-content-padding: {{ st.content_padding }}px; --wholesale-hero-content-padding-mobile: {{ st.content_padding_mobile }}px; --wholesale-hero-height: {{ st.hero_height }}px; --wholesale-hero-image-width: {{ st.image_width }}%; --wholesale-hero-content-width: {{ st.content_width }}px; --wholesale-hero-image-position: {{ st.image_position }};"
+  style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }}; --wholesale-hero-content-padding: {{ content_padding }}px; --wholesale-hero-content-padding-mobile: {{ content_padding_mobile }}px; --wholesale-hero-height: {{ hero_height }}px; --wholesale-hero-image-width: {{ image_width }}%; --wholesale-hero-content-width: {{ content_width }}px; --wholesale-hero-image-position: {{ image_position }};"
   aria-labelledby="WholesaleHeroTitle-{{ section.id }}"
 >
-  <div class="{{ st.container }} section-full wholesale-hero__grid">
+  <div class="{{ hero_container }} section-full wholesale-hero__grid">
     <div class="wholesale-hero__content">
       <div class="wholesale-hero__content-inner">
         {%- if st.eyebrow != blank -%}
@@ -316,6 +328,13 @@
           "label": "t:sections.all.layout.options__4.label"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "edge_to_edge_split",
+      "label": "Full-bleed split layout",
+      "info": "Keeps the image flush with the right edge. Turn off to use the section width above.",
+      "default": true
     },
     {
       "type": "range",
