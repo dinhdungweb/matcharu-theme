@@ -100,6 +100,11 @@
     min-height: var(--wholesale-hero-height, 680px);
   }
 
+  .wholesale-hero__grid.full-width {
+    padding-right: var(--wholesale-hero-content-padding, 48px);
+    padding-left: var(--wholesale-hero-content-padding, 48px);
+  }
+
   .wholesale-hero::after {
     content: '';
     position: absolute;
@@ -125,8 +130,8 @@
     box-sizing: border-box;
     width: min(100%, var(--wholesale-hero-content-width, 660px));
     min-height: var(--wholesale-hero-height, 680px);
-    margin-left: clamp(0px, 5vw, 80px);
-    padding: clamp(64px, 8vw, 120px) var(--wholesale-hero-content-padding, 48px);
+    margin-left: 0;
+    padding: clamp(64px, 8vw, 120px) 0;
   }
 
   .wholesale-hero__content-inner {
@@ -271,7 +276,7 @@
       width: min(78%, 620px);
       min-height: var(--wholesale-hero-height-mobile, 620px);
       margin: 0;
-      padding: 64px clamp(28px, 6vw, 52px);
+      padding: 64px 0;
     }
   }
 
@@ -282,6 +287,11 @@
   }
 
   @media (max-width: 575px) {
+    .wholesale-hero__grid.full-width {
+      padding-right: var(--wholesale-hero-content-padding-mobile, 20px);
+      padding-left: var(--wholesale-hero-content-padding-mobile, 20px);
+    }
+
     .wholesale-hero__grid {
       min-height: var(--wholesale-hero-height-mobile, 620px);
     }
@@ -299,7 +309,7 @@
       width: 100%;
       min-height: var(--wholesale-hero-height-mobile, 620px);
       justify-content: flex-start;
-      padding: 64px var(--wholesale-hero-content-padding-mobile, 20px) 48px;
+      padding: 64px 0 48px;
     }
 
     .wholesale-hero__actions {
@@ -355,7 +365,7 @@
     {
       "type": "range",
       "id": "content_padding",
-      "label": "Text side padding (desktop)",
+      "label": "Full-width content padding (desktop)",
       "min": 20,
       "max": 120,
       "step": 4,
@@ -365,7 +375,7 @@
     {
       "type": "range",
       "id": "content_padding_mobile",
-      "label": "Text side padding (mobile)",
+      "label": "Full-width content padding (mobile)",
       "min": 12,
       "max": 48,
       "step": 2,
