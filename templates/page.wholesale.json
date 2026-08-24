@@ -183,10 +183,10 @@
         "submit_label": "Request a Wholesale Quote",
         "submit_note": "Submitting this form does not commit you to an order.",
         "success_message": "Thank you. Your wholesale inquiry has been sent.",
-        "background_color": "#1a3128",
+        "background_color": "#CFDDC2",
         "panel_color": "#f8f5f0",
-        "text_color": "#ffffff",
-        "accent_color": "#cfddc2",
+        "text_color": "#1A3128",
+        "accent_color": "#1A3128",
         "padding_top": 96,
         "padding_bottom": 96
       }
