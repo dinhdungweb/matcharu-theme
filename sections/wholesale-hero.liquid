@@ -5,7 +5,6 @@
   assign hero_image = st.hero_image | default: st.hero_image_mobile
   assign hero_image_mobile = st.hero_image_mobile | default: hero_image
   assign hero_container = st.container | default: 'full-width'
-  assign edge_to_edge_split = st.edge_to_edge_split | default: true, allow_false: true
   assign content_padding = st.content_padding | default: 48
   assign content_padding_mobile = st.content_padding_mobile | default: 20
   assign hero_height = st.hero_height | default: 680
@@ -17,10 +16,6 @@
   assign overlay_alpha = overlay_opacity | divided_by: 100.0
   assign heading_size = st.heading_size | default: 64
   assign content_vertical = st.content_vertical | default: 'center'
-
-  if edge_to_edge_split
-    assign hero_container = 'full-width'
-  endif
 
   if primary_href == blank
     assign primary_href = '#product-grid'
@@ -81,18 +76,11 @@
 
 {% stylesheet %}
   .wholesale-hero {
-    background: var(--wholesale-hero-bg, #1a3128);
-    background-position: var(--wholesale-hero-image-position, center center);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     color: var(--wholesale-hero-text, #ffffff);
     overflow: hidden;
     margin: 0;
     padding: 0 !important;
-  }
-
-  .wholesale-hero--has-image {
-    background-image: var(--wholesale-hero-image);
   }
 
   .wholesale-hero__grid {
@@ -102,6 +90,15 @@
     margin: 0;
     padding-left: 0;
     padding-right: 0;
+    background-color: var(--wholesale-hero-bg, #1a3128);
+    background-position: var(--wholesale-hero-image-position, center center);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .wholesale-hero--has-image .wholesale-hero__grid {
+    background-image: var(--wholesale-hero-image);
   }
 
   .wholesale-hero__grid::after {
@@ -277,7 +274,7 @@
   }
 
   @media (max-width: 749px) {
-    .wholesale-hero--has-image {
+    .wholesale-hero--has-image .wholesale-hero__grid {
       background-image: var(--wholesale-hero-image-mobile, var(--wholesale-hero-image));
     }
   }
@@ -351,13 +348,6 @@
           "label": "t:sections.all.layout.options__4.label"
         }
       ]
-    },
-    {
-      "type": "checkbox",
-      "id": "edge_to_edge_split",
-      "label": "Full-width background image",
-      "info": "Makes the image cover the entire hero. Turn off to use the section width above.",
-      "default": true
     },
     {
       "type": "range",

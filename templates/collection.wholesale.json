@@ -13,7 +13,6 @@
       "type": "wholesale-hero",
       "settings": {
         "container": "full-width",
-        "edge_to_edge_split": true,
         "content_padding": 48,
         "content_padding_mobile": 20,
         "hero_height": 680,
