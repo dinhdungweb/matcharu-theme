@@ -30,6 +30,12 @@
   style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }}; --wholesale-hero-overlay: {{ overlay_color }}; --wholesale-hero-overlay-alpha: {{ overlay_alpha }}; --wholesale-hero-content-padding: {{ content_padding }}px; --wholesale-hero-content-padding-mobile: {{ content_padding_mobile }}px; --wholesale-hero-height: {{ hero_height }}px; --wholesale-hero-height-mobile: {{ hero_height_mobile }}px; --wholesale-hero-content-width: {{ content_width }}px; --wholesale-hero-heading-size: {{ heading_size }}px; --wholesale-hero-content-vertical: {{ content_vertical }}; --wholesale-hero-image-position: {{ image_position }};{% if hero_image != blank %} --wholesale-hero-image: url('{{ hero_image | image_url: width: 2400 }}'); --wholesale-hero-image-mobile: url('{{ hero_image_mobile | image_url: width: 1200 }}');{% endif %}"
   aria-labelledby="WholesaleHeroTitle-{{ section.id }}"
 >
+  {%- if hero_image == blank -%}
+    <div class="wholesale-hero__media">
+      {{ 'lifestyle-1' | placeholder_svg_tag: 'wholesale-hero__placeholder' }}
+    </div>
+  {%- endif -%}
+
   <div class="{{ hero_container }} section-full wholesale-hero__grid">
     <div class="wholesale-hero__content">
       <div class="wholesale-hero__content-inner">
@@ -66,42 +72,35 @@
       </div>
     </div>
 
-    {%- if hero_image == blank -%}
-      <div class="wholesale-hero__media">
-        {{ 'lifestyle-1' | placeholder_svg_tag: 'wholesale-hero__placeholder' }}
-      </div>
-    {%- endif -%}
   </div>
 </section>
 
 {% stylesheet %}
   .wholesale-hero {
-    background: transparent;
+    position: relative;
+    isolation: isolate;
+    min-height: var(--wholesale-hero-height, 680px);
+    background-color: var(--wholesale-hero-bg, #1a3128);
+    background-position: var(--wholesale-hero-image-position, center center);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--wholesale-hero-text, #ffffff);
     overflow: hidden;
     margin: 0;
     padding: 0 !important;
   }
 
-  .wholesale-hero__grid {
-    position: relative;
-    isolation: isolate;
-    min-height: var(--wholesale-hero-height, 680px);
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: var(--wholesale-hero-bg, #1a3128);
-    background-position: var(--wholesale-hero-image-position, center center);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-  }
-
-  .wholesale-hero--has-image .wholesale-hero__grid {
+  .wholesale-hero--has-image {
     background-image: var(--wholesale-hero-image);
   }
 
-  .wholesale-hero__grid::after {
+  .wholesale-hero__grid {
+    position: relative;
+    z-index: 2;
+    min-height: var(--wholesale-hero-height, 680px);
+  }
+
+  .wholesale-hero::after {
     content: '';
     position: absolute;
     z-index: 1;
@@ -251,12 +250,15 @@
   }
 
   @media (max-width: 989px) {
-    .wholesale-hero__grid {
+    .wholesale-hero {
       min-height: var(--wholesale-hero-height-mobile, 620px);
-      padding: 0;
     }
 
-    .wholesale-hero__grid::after {
+    .wholesale-hero__grid {
+      min-height: var(--wholesale-hero-height-mobile, 620px);
+    }
+
+    .wholesale-hero::after {
       background: linear-gradient(
         90deg,
         var(--wholesale-hero-overlay, #0d2a20) 0%,
@@ -274,7 +276,7 @@
   }
 
   @media (max-width: 749px) {
-    .wholesale-hero--has-image .wholesale-hero__grid {
+    .wholesale-hero--has-image {
       background-image: var(--wholesale-hero-image-mobile, var(--wholesale-hero-image));
     }
   }
@@ -284,7 +286,7 @@
       min-height: var(--wholesale-hero-height-mobile, 620px);
     }
 
-    .wholesale-hero__grid::after {
+    .wholesale-hero::after {
       background: linear-gradient(
         180deg,
         var(--wholesale-hero-overlay, #0d2a20) 0%,
@@ -328,7 +330,8 @@
     {
       "type": "select",
       "id": "container",
-      "label": "t:sections.all.layout.label",
+      "label": "Content layout",
+      "info": "Controls the content width only. The hero background always remains full width.",
       "default": "full-width",
       "options": [
         {
