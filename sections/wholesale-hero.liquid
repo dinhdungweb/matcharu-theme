@@ -3,7 +3,7 @@
   assign primary_href = st.primary_link
   assign secondary_href = st.secondary_link
   assign hero_image = st.hero_image | default: st.hero_image_mobile
-  assign hero_alt = st.hero_image_alt | default: st.heading
+  assign hero_image_mobile = st.hero_image_mobile | default: hero_image
   assign hero_container = st.container | default: 'full-width'
   assign edge_to_edge_split = st.edge_to_edge_split | default: true, allow_false: true
   assign content_padding = st.content_padding | default: 48
@@ -31,8 +31,8 @@
 -%}
 
 <section
-  class="wholesale-hero"
-  style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }}; --wholesale-hero-overlay: {{ overlay_color }}; --wholesale-hero-overlay-alpha: {{ overlay_alpha }}; --wholesale-hero-content-padding: {{ content_padding }}px; --wholesale-hero-content-padding-mobile: {{ content_padding_mobile }}px; --wholesale-hero-height: {{ hero_height }}px; --wholesale-hero-height-mobile: {{ hero_height_mobile }}px; --wholesale-hero-content-width: {{ content_width }}px; --wholesale-hero-heading-size: {{ heading_size }}px; --wholesale-hero-content-vertical: {{ content_vertical }}; --wholesale-hero-image-position: {{ image_position }};"
+  class="wholesale-hero{% if hero_image != blank %} wholesale-hero--has-image{% endif %}"
+  style="--wholesale-hero-bg: {{ st.background_color }}; --wholesale-hero-text: {{ st.text_color }}; --wholesale-hero-accent: {{ st.accent_color }}; --wholesale-hero-overlay: {{ overlay_color }}; --wholesale-hero-overlay-alpha: {{ overlay_alpha }}; --wholesale-hero-content-padding: {{ content_padding }}px; --wholesale-hero-content-padding-mobile: {{ content_padding_mobile }}px; --wholesale-hero-height: {{ hero_height }}px; --wholesale-hero-height-mobile: {{ hero_height_mobile }}px; --wholesale-hero-content-width: {{ content_width }}px; --wholesale-hero-heading-size: {{ heading_size }}px; --wholesale-hero-content-vertical: {{ content_vertical }}; --wholesale-hero-image-position: {{ image_position }};{% if hero_image != blank %} --wholesale-hero-image: url('{{ hero_image | image_url: width: 2400 }}'); --wholesale-hero-image-mobile: url('{{ hero_image_mobile | image_url: width: 1200 }}');{% endif %}"
   aria-labelledby="WholesaleHeroTitle-{{ section.id }}"
 >
   <div class="{{ hero_container }} section-full wholesale-hero__grid">
@@ -71,51 +71,35 @@
       </div>
     </div>
 
-    <div class="wholesale-hero__media">
-      {%- if hero_image != blank -%}
-        <picture>
-          {%- if st.hero_image_mobile != blank -%}
-            <source
-              media="(max-width: 749px)"
-              srcset="
-                {{ st.hero_image_mobile | image_url: width: 480 }} 480w,
-                {{ st.hero_image_mobile | image_url: width: 750 }} 750w,
-                {{ st.hero_image_mobile | image_url: width: 1000 }} 1000w
-              "
-              sizes="100vw"
-            >
-          {%- endif -%}
-          {{-
-            hero_image
-            | image_url: width: 2000
-            | image_tag:
-              widths: '750, 1000, 1200, 1600, 2000',
-              sizes: '100vw',
-              loading: 'eager',
-              fetchpriority: 'high',
-              alt: hero_alt,
-              class: 'wholesale-hero__image'
-          -}}
-        </picture>
-      {%- else -%}
+    {%- if hero_image == blank -%}
+      <div class="wholesale-hero__media">
         {{ 'lifestyle-1' | placeholder_svg_tag: 'wholesale-hero__placeholder' }}
-      {%- endif -%}
-    </div>
+      </div>
+    {%- endif -%}
   </div>
 </section>
 
 {% stylesheet %}
   .wholesale-hero {
     background: var(--wholesale-hero-bg, #1a3128);
+    background-position: var(--wholesale-hero-image-position, center center);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--wholesale-hero-text, #ffffff);
     overflow: hidden;
-    padding: 0;
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .wholesale-hero--has-image {
+    background-image: var(--wholesale-hero-image);
   }
 
   .wholesale-hero__grid {
     position: relative;
     isolation: isolate;
     min-height: var(--wholesale-hero-height, 680px);
+    margin: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -245,7 +229,7 @@
   .wholesale-hero__media {
     position: absolute;
     z-index: 0;
-    inset: 0;
+    inset: 0 !important;
     min-width: 0;
     overflow: hidden;
   }
@@ -289,6 +273,12 @@
       min-height: var(--wholesale-hero-height-mobile, 620px);
       margin: 0;
       padding: 64px clamp(28px, 6vw, 52px);
+    }
+  }
+
+  @media (max-width: 749px) {
+    .wholesale-hero--has-image {
+      background-image: var(--wholesale-hero-image-mobile, var(--wholesale-hero-image));
     }
   }
 
