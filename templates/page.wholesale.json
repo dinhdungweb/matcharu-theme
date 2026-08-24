@@ -13,10 +13,10 @@
       "type": "wholesale-hero",
       "name": "Wholesale hero",
       "settings": {
-        "container": "container",
-        "content_padding": 48,
+        "container": "container-fluid",
+        "content_padding": 20,
         "content_padding_mobile": 20,
-        "hero_height": 680,
+        "hero_height": 760,
         "hero_height_mobile": 620,
         "content_width": 660,
         "heading_size": 64,
