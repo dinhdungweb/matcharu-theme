@@ -647,7 +647,7 @@
           "show_border_top_inner": false,
           "has_bg": false,
           "remove_on_homepage": true,
-          "remove_on_inner_page": false,
+          "remove_on_inner_page": true,
           "copyright": "<p>© 2025 Matcharu Store. All Rights Reserved</p>",
           "show_country": true,
           "show_language": true,
