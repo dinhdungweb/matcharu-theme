@@ -17,8 +17,10 @@
         "content_padding": 48,
         "content_padding_mobile": 20,
         "hero_height": 680,
-        "image_width": 72,
+        "hero_height_mobile": 620,
         "content_width": 660,
+        "heading_size": 64,
+        "content_vertical": "center",
         "image_position": "center center",
         "eyebrow": "Matcharu Wholesale",
         "heading": "Japanese Matcha for Cafés & Retailers",
@@ -30,7 +32,8 @@
         "hero_image_mobile": "shopify://shop_images/Shizuoka_Satoen_Matcha_Tea_Farm.png",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
         "background_color": "#1A3128",
-        "canvas_color": "#F8F5F0",
+        "overlay_color": "#0D2A20",
+        "overlay_opacity": 90,
         "text_color": "#FFFFFF",
         "accent_color": "#CFDDC2"
       }
