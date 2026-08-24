@@ -13,7 +13,7 @@
       "type": "wholesale-hero",
       "name": "Wholesale hero",
       "settings": {
-        "container": "strecth-width",
+        "container": "container",
         "content_padding": 48,
         "content_padding_mobile": 20,
         "hero_height": 680,
