@@ -11,6 +11,7 @@
   "sections": {
     "hero": {
       "type": "wholesale-hero",
+      "disabled": true,
       "settings": {
         "container": "container-fluid",
         "content_padding": 48,
@@ -81,6 +82,7 @@
         "sample-first",
         "personal-support"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "benefits_eyebrow": "Made for business",
@@ -175,6 +177,7 @@
         "step-choose",
         "step-order"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "benefits_eyebrow": "",
@@ -250,6 +253,7 @@
         "oem",
         "shipping"
       ],
+      "disabled": true,
       "settings": {
         "heading_logo_svg": "",
         "heading": "Wholesale FAQs",
@@ -264,6 +268,7 @@
     },
     "inquiry": {
       "type": "wholesale-inquiry",
+      "disabled": true,
       "settings": {
         "container": "container",
         "eyebrow": "Request a wholesale quote",
