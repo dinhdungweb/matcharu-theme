@@ -12,7 +12,7 @@
     "hero": {
       "type": "wholesale-hero",
       "settings": {
-        "container": "full-width",
+        "container": "container-fluid",
         "content_padding": 48,
         "content_padding_mobile": 20,
         "hero_height": 680,
@@ -25,16 +25,18 @@
         "heading": "Japanese Matcha for Cafés & Retailers",
         "description": "<p>Ready to grow with bulk-ready formats, Japanese selection and personal support for your menu or shelves.</p>",
         "primary_label": "Shop Bulk Formats",
+        "primary_link": "",
         "secondary_label": "Request a Wholesale Quote",
+        "secondary_link": "",
         "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
         "hero_image": "shopify://shop_images/Shizuoka_-_Satoen_Matcha_Tea_Farm.png",
         "hero_image_mobile": "shopify://shop_images/Shizuoka_Satoen_Matcha_Tea_Farm.png",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
-        "background_color": "#1A3128",
-        "overlay_color": "#0D2A20",
+        "background_color": "#1a3128",
+        "overlay_color": "#0d2a20",
         "overlay_opacity": 90,
-        "text_color": "#FFFFFF",
-        "accent_color": "#CFDDC2"
+        "text_color": "#ffffff",
+        "accent_color": "#cfddc2"
       }
     },
     "benefits": {
@@ -98,10 +100,11 @@
         "oem_heading": "",
         "oem_description": "",
         "oem_button_label": "",
-        "background_color": "#F8F5F0",
-        "card_background": "#FFFFFF",
-        "text_color": "#1A3128",
-        "accent_color": "#CFDDC2",
+        "oem_link": "",
+        "background_color": "#f8f5f0",
+        "card_background": "#ffffff",
+        "text_color": "#1a3128",
+        "accent_color": "#cfddc2",
         "padding_top": 88,
         "padding_bottom": 56
       }
@@ -193,10 +196,10 @@
         "oem_description": "<p>Wholesale products are available here. For branded tins, pouches and custom packaging, visit our dedicated OEM collection.</p>",
         "oem_button_label": "Explore White Label & OEM",
         "oem_link": "shopify://collections/oem",
-        "background_color": "#FFFFFF",
-        "card_background": "#F8F5F0",
-        "text_color": "#1A3128",
-        "accent_color": "#CFDDC2",
+        "background_color": "#ffffff",
+        "card_background": "#f8f5f0",
+        "text_color": "#1a3128",
+        "accent_color": "#cfddc2",
         "padding_top": 104,
         "padding_bottom": 104
       }
@@ -281,10 +284,10 @@
         "submit_label": "Request a Wholesale Quote",
         "submit_note": "Submitting this form does not commit you to an order.",
         "success_message": "Thank you. Your wholesale inquiry has been sent.",
-        "background_color": "#1A3128",
-        "panel_color": "#F8F5F0",
-        "text_color": "#FFFFFF",
-        "accent_color": "#CFDDC2",
+        "background_color": "#1a3128",
+        "panel_color": "#f8f5f0",
+        "text_color": "#ffffff",
+        "accent_color": "#cfddc2",
         "padding_top": 96,
         "padding_bottom": 96
       }
