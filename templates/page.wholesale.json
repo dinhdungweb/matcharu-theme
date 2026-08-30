@@ -31,6 +31,7 @@
         "secondary_link": "",
         "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
         "hero_image": "shopify://shop_images/Shizuoka_Matcha_Tea_Field.png",
+        "hero_image_mobile": "shopify://shop_images/Kagoshima_Matcha_Tea_Field.png",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
         "background_color": "#1a3128",
         "overlay_color": "#0d2a20",
