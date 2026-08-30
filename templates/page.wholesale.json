@@ -61,7 +61,7 @@
         "banner_link": "",
         "banner_width": 30,
         "text_content": "",
-        "view_all_enable": false,
+        "view_all_enable": true,
         "text_view_all": "View All",
         "load_more_button_enable": true,
         "number_of_rows": 2,
