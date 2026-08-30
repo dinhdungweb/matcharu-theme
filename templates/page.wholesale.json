@@ -204,7 +204,7 @@
           "type": "sub_heading",
           "settings": {
             "sub_heading": "<h2>Tax-Exempt Purchases</h2>",
-            "sub_fs": 12,
+            "sub_fs": 17,
             "sub_fw": "default",
             "sub_tf": "unset",
             "sub_mt": 0,
