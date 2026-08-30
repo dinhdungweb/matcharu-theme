@@ -196,6 +196,83 @@
       "type": "main-page",
       "disabled": true,
       "settings": {}
+    },
+    "banner_with_text_WztUFA": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_my9Fph": {
+          "type": "heading",
+          "settings": {
+            "title": "TAX-EXEMPT PURCHASE for WHOLESALE ACCOUNT",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_ciqzNz": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p>Submit a valid resale certificate to qualify for tax exemption</p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 0,
+            "txt_mb": 25
+          }
+        },
+        "buttons_gd9bcP": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "SUBMIT",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_my9Fph",
+        "text_ciqzNz",
+        "buttons_gd9bcP"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "image": "shopify://shop_images/Matcharu_Pictures.png",
+        "image_mobile": "shopify://shop_images/Matcharu_Pictures.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "left",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
@@ -203,6 +280,7 @@
     "products_grid_T3wFtt",
     "wholesale_content_Lb3zL9",
     "wholesale_inquiry_RF8aRd",
-    "main"
+    "main",
+    "banner_with_text_WztUFA"
   ]
 }
