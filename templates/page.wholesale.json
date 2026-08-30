@@ -228,7 +228,7 @@
             "btn_content": "SUBMIT",
             "button_type": "primary",
             "button_link": "",
-            "button_target": true,
+            "button_target": false,
             "b_mt": 0,
             "b_mb": 15
           }
