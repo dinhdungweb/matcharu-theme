@@ -27,7 +27,7 @@
         "description": "<p>Ready to grow with bulk-ready formats, Japanese selection and personal support for your menu or shelves.</p>",
         "primary_label": "Shop Bulk Formats",
         "primary_link": "",
-        "secondary_label": "Request a Wholesale Quote",
+        "secondary_label": "Request a Wholesale Quote ( Over 10 kgs)",
         "secondary_link": "",
         "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
         "hero_image": "shopify://shop_images/Shizuoka_Matcha_Tea_Field.png",
@@ -45,7 +45,7 @@
       "settings": {
         "heading_logo_svg": "",
         "heading": "Bulk/Wholesale",
-        "description": "<h4>Bestsellers</h4>",
+        "description": "<h4>Shop Bulk Formats</h4>",
         "text_alignment": "text-center",
         "container": "container-fluid",
         "color_scheme": "",
