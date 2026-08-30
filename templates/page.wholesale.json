@@ -24,12 +24,12 @@
         "image_position": "center top",
         "eyebrow": "Matcharu Wholesale",
         "heading": "Japanese Matcha for Cafés & Retailers",
-        "description": "<p>Ready to grow with bulk-ready formats, Japanese selection and personal support for your menu or shelves.</p>",
-        "primary_label": "Shop Bulk Formats",
-        "primary_link": "",
-        "secondary_label": "Request a Wholesale Quote ( Over 10 kgs)",
+        "description": "<p>✓ Factory-Direct Wholesale</p><p>✓ Fast & Reliable U.S./Canada Shipping</p><p>✓ Freshly Ground, Farm-Direct , Monthly Imports   </p><p>✓ Flexible Scale (No MOQ):  1 kg to Full Pallets   </p><p>✓Try Before You Buy: Samples Pack Available (10g/30g/50g/100g)<br/></p>",
+        "primary_label": "SHOP BULK FORMATS",
+        "primary_link": "shopify://collections/bulk-wholesale-discounted-large-orders-for-businesses",
+        "secondary_label": "REQUEST WHOLESALE QUOTE (≧10 kgs)",
         "secondary_link": "",
-        "note": "Order available bulk packs directly or contact us for larger and recurring needs.",
+        "note": "",
         "hero_image": "shopify://shop_images/Shizuoka_Matcha_Tea_Field.png",
         "hero_image_mobile": "shopify://shop_images/Kagoshima_Matcha_Tea_Field.png",
         "hero_image_alt": "Japanese tea fields where Matcharu matcha is sourced",
@@ -95,8 +95,8 @@
           "type": "benefit",
           "settings": {
             "benefit_kicker": "01",
-            "benefit_heading": "Direct Japanese Sourcing",
-            "benefit_text": "<p>Directly sourced from renowned tea regions across Japan, we curate only the finest harvest to bring out distinct regional flavor profiles—ensuring peak freshness, rich umami, and vibrant color.<br/><br/><br/><br/></p>"
+            "benefit_heading": "Direct Japanese Farm & Factory Sourcing",
+            "benefit_text": "<h6>Directly sourced from renowned tea regions across Japan, we curate only the finest harvest to bring out distinct regional flavor profiles—ensuring peak freshness, rich umami, and vibrant color.<br/><br/><br/><br/></h6>"
           }
         },
         "benefit_78gpey": {
@@ -104,7 +104,7 @@
           "settings": {
             "benefit_kicker": "02",
             "benefit_heading": "Consistent Quality & Supply",
-            "benefit_text": "<p>Stable batch-to-batch consistency with reliable year-round inventory ready to ship from our US warehouse.<br/></p>"
+            "benefit_text": "<h6>Stable batch-to-batch consistency with reliable year-round inventory ready to ship from our US warehouse.<br/></h6>"
           }
         },
         "benefit_qwMRFW": {
@@ -112,7 +112,7 @@
           "settings": {
             "benefit_kicker": "03",
             "benefit_heading": "Menu & Business Matching",
-            "benefit_text": "<p><br/>Clear tasting profiles and technical specs (umami, astringency, color) to match your exact drink recipes or shelf display.<br/><br/></p>"
+            "benefit_text": "<h6><br/>Clear tasting profiles and technical specs (umami, astringency, color) to match your exact drink recipes or shelf display.<br/><br/></h6>"
           }
         },
         "benefit_rVjCbC": {
@@ -120,7 +120,7 @@
           "settings": {
             "benefit_kicker": "04",
             "benefit_heading": "Flexible Bulk & Support",
-            "benefit_text": "<p><br/>Competitive tiered wholesale pricing starting from low MOQs, with dedicated support and sample programs available.<br/><br/></p>"
+            "benefit_text": "<h6><br/>Competitive tiered wholesale pricing with NO MOQs, with dedicated support and sample programs available.<br/><br/></h6>"
           }
         }
       },
@@ -135,9 +135,9 @@
       "name": "Wholesale content",
       "settings": {
         "container": "container-fluid",
-        "benefits_eyebrow": "Made for business",
+        "benefits_eyebrow": "Made for business: Your Success Is Our Success",
         "benefits_heading": "Wholesale matcha without the guesswork",
-        "benefits_description": "<p>Explore business-ready formats, compare what fits your use, and get personal help when your needs go beyond an online order.</p>",
+        "benefits_description": "<p>Flexible wholesale matcha solutions tailored to grow alongside your café, bakery, or retail brand.<br/><br/></p>",
         "catalog_eyebrow": "",
         "catalog_heading": "",
         "catalog_description": "",
@@ -196,60 +196,6 @@
       "type": "main-page",
       "disabled": true,
       "settings": {}
-    },
-    "custom_text_d7d3RG": {
-      "type": "custom-text",
-      "blocks": {
-        "sub_heading_J4xw7G": {
-          "type": "sub_heading",
-          "settings": {
-            "sub_heading": "<h2>TAX-EXEMPT PURCHASE</h2>",
-            "sub_fs": 17,
-            "sub_fw": "default",
-            "sub_tf": "unset",
-            "sub_mt": 0,
-            "sub_mb": 0
-          }
-        },
-        "heading_3Mj6BV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Submit a valid resale certificate to qualify for tax exemption",
-            "heading_fs": 20,
-            "heading_fw": "default",
-            "heading_tf": "unset",
-            "heading_mt": 0,
-            "heading_mb": 0
-          }
-        },
-        "desc_UVnc73": {
-          "type": "desc",
-          "settings": {
-            "desc": "<p><br/>Please email your resale certificate to <a href=\"mailto:matcharuus@gmail.com\" target=\"_blank\">matcharuus@gmail.com</a> to qualify for tax-exempt purchasing.<br/><br/></p>",
-            "desc_fs": 16,
-            "desc_fw": "default",
-            "content_width": 100,
-            "desc_tf": "unset",
-            "desc_mt": 0,
-            "desc_mb": 0
-          }
-        }
-      },
-      "block_order": [
-        "sub_heading_J4xw7G",
-        "heading_3Mj6BV",
-        "desc_UVnc73"
-      ],
-      "name": "t:sections.custom-content.name",
-      "settings": {
-        "container": "container",
-        "text_align": "text-center",
-        "color_scheme": "",
-        "custom_class": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "reset_spacing": false
-      }
     }
   },
   "order": [
@@ -257,7 +203,6 @@
     "products_grid_T3wFtt",
     "wholesale_content_Lb3zL9",
     "wholesale_inquiry_RF8aRd",
-    "main",
-    "custom_text_d7d3RG"
+    "main"
   ]
 }
