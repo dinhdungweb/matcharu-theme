@@ -44,8 +44,8 @@
       "name": "t:sections.products-grid.name",
       "settings": {
         "heading_logo_svg": "",
-        "heading": "Bestseller Product",
-        "description": "",
+        "heading": "Bulk/Wholesale",
+        "description": "<h4>Bestsellers</h4>",
         "text_alignment": "text-center",
         "container": "container-fluid",
         "color_scheme": "",
@@ -80,14 +80,14 @@
           "type": "audience",
           "settings": {
             "audience_heading": "For cafés & food service",
-            "audience_text": "<p>Find bulk formats for lattes, signature drinks, desserts and daily service.</p>"
+            "audience_text": "<p><br/>Bulk formats (500g, 1kg) with balanced profiles crafted for smooth lattes, signature iced drinks, culinary creations, and high-volume daily service.<br/><br/></p>"
           }
         },
         "audience_8GAXXD": {
           "type": "audience",
           "settings": {
-            "audience_heading": "For cafés & food service",
-            "audience_text": "<p>Find bulk formats for lattes, signature drinks, desserts and daily service.</p>"
+            "audience_heading": "For Retailers & Boutiques",
+            "audience_text": "<p><br/>Ready-to-sell retail tins (30g, 50g), gift kits, and traditional teaware designed for elegant shelf display and high customer retention.<br/><br/></p>"
           }
         },
         "benefit_WzeaTB": {
