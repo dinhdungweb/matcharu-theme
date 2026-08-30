@@ -196,6 +196,60 @@
       "type": "main-page",
       "disabled": true,
       "settings": {}
+    },
+    "custom_text_d7d3RG": {
+      "type": "custom-text",
+      "blocks": {
+        "sub_heading_J4xw7G": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<h2>Tax-Exempt Purchases</h2>",
+            "sub_fs": 12,
+            "sub_fw": "default",
+            "sub_tf": "unset",
+            "sub_mt": 0,
+            "sub_mb": 0
+          }
+        },
+        "heading_3Mj6BV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Submit a valid resale certificate to qualify for tax exemption",
+            "heading_fs": 20,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 0
+          }
+        },
+        "desc_UVnc73": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p><br/>Please email your resale certificate to <a href=\"mailto:matcharuus@gmail.com\" target=\"_blank\">matcharuus@gmail.com</a> to qualify for tax-exempt purchasing.<br/><br/></p>",
+            "desc_fs": 16,
+            "desc_fw": "default",
+            "content_width": 100,
+            "desc_tf": "unset",
+            "desc_mt": 0,
+            "desc_mb": 0
+          }
+        }
+      },
+      "block_order": [
+        "sub_heading_J4xw7G",
+        "heading_3Mj6BV",
+        "desc_UVnc73"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "container",
+        "text_align": "text-center",
+        "color_scheme": "",
+        "custom_class": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
@@ -203,6 +257,7 @@
     "products_grid_T3wFtt",
     "wholesale_content_Lb3zL9",
     "wholesale_inquiry_RF8aRd",
-    "main"
+    "main",
+    "custom_text_d7d3RG"
   ]
 }
