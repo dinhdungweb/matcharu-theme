@@ -227,7 +227,7 @@
           "settings": {
             "btn_content": "SUBMIT",
             "button_type": "primary",
-            "button_link": "mailto:matcharuus@gmail.com?subject=Resale Certificate Submission - [Business Name]&body=Please find attached our valid Resale Certificate for sales tax exemption.",
+            "button_link": "",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
