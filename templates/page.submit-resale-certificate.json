@@ -365,9 +365,9 @@
       "settings": {
         "container": "container",
         "eyebrow": "Submit Your Wholesale Account",
-        "heading": "Tell us what is your business?",
-        "description": "<p>Share your product interests, expected volume and destination. We will use those details to discuss the most suitable next step.</p>",
-        "contact_note": "Prefer email? Contact matcharuus@gmail.com",
+        "heading": "Submit your resale form to get 100% tax-free orders.",
+        "description": "<p><br/>Requirements and form formats vary depending on your state. Please provide your state-issued resale certificate so we can process the sales tax exemption for your business account.<br/><br/></p>",
+        "contact_note": "Prefer sending by email? Contact: matcharuus@gmail.com",
         "form_image_alt": "Matcharu matcha prepared for wholesale customers",
         "name_label": "Name",
         "email_label": "Business email",
