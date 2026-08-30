@@ -227,7 +227,7 @@
           "settings": {
             "btn_content": "SUBMIT",
             "button_type": "primary",
-            "button_link": "mailto:matcharuus@gmail.com?subject=Resale%20Certificate%20Submission&body=Hi%20Matcharu%20Team%2C%0A%0APlease%20find%20attached%20our%20valid%20resale%20certificate%20for%20tax%20exemption.%0A%0ABusiness%20Name%3A%20%0AContact%20Name%3A%20%0APhone%20Number%3A%20",
+            "button_link": "",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
