@@ -227,7 +227,18 @@
           "settings": {
             "btn_content": "SUBMIT",
             "button_type": "primary",
-            "button_link": "shopify://pages/submitresalecertificate",
+            "button_link": "mailto:matcharuus@gmail.com?subject=Resale Certificate Submission - [Business Name]&body=Please find attached our valid Resale Certificate for sales tax exemption.",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        },
+        "buttons_VY4Tcb": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Button",
+            "button_type": "primary",
+            "button_link": "",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
@@ -237,7 +248,8 @@
       "block_order": [
         "heading_my9Fph",
         "text_ciqzNz",
-        "buttons_gd9bcP"
+        "buttons_gd9bcP",
+        "buttons_VY4Tcb"
       ],
       "name": "t:sections.banner-with-text.name",
       "settings": {
