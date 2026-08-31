@@ -227,7 +227,7 @@
           "settings": {
             "btn_content": "SUBMIT",
             "button_type": "primary",
-            "button_link": "shopify://pages/submitresalecertificate",
+            "button_link": "https://forms.gle/kNSZJFLEPVFT6vHg8",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
