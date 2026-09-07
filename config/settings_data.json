@@ -553,7 +553,7 @@
               "title": "CONTACT US",
               "url": "",
               "open_link": false,
-              "menu": "",
+              "menu": "connect-menu",
               "col": "4"
             }
           }
