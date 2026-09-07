@@ -545,6 +545,17 @@
               "icon_font": "",
               "icon_width_image": 50
             }
+          },
+          "link_Bj7qRp": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "title": "CONTACT US",
+              "url": "",
+              "open_link": false,
+              "menu": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
@@ -560,7 +571,8 @@
           "banner_4NanRF",
           "single_link_yh3fDr",
           "dropdown_cpgQmf",
-          "1847da8e-da3e-4aff-985f-ae488e809691"
+          "1847da8e-da3e-4aff-985f-ae488e809691",
+          "link_Bj7qRp"
         ],
         "settings": {
           "m_animation": "up_to_down",
