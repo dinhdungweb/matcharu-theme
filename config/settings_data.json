@@ -537,6 +537,7 @@
           },
           "1847da8e-da3e-4aff-985f-ae488e809691": {
             "type": "single_link",
+            "disabled": true,
             "settings": {
               "title": "SUBSCRIPTION",
               "url": "shopify://pages/contact",
@@ -548,7 +549,6 @@
           },
           "link_Bj7qRp": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "title": "CONTACT US",
               "url": "",
