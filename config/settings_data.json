@@ -549,12 +549,25 @@
           },
           "link_Bj7qRp": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "CONTACT US",
               "url": "",
               "open_link": false,
               "menu": "connect-menu",
               "col": "4"
+            }
+          },
+          "dropdown_P6rARy": {
+            "type": "dropdown",
+            "settings": {
+              "title": "CONTACT US",
+              "url": "",
+              "menu": "connect-menu",
+              "open_link": false,
+              "label": "",
+              "icon_font": "",
+              "icon_width_image": 50
             }
           }
         },
@@ -572,7 +585,8 @@
           "single_link_yh3fDr",
           "dropdown_cpgQmf",
           "1847da8e-da3e-4aff-985f-ae488e809691",
-          "link_Bj7qRp"
+          "link_Bj7qRp",
+          "dropdown_P6rARy"
         ],
         "settings": {
           "m_animation": "up_to_down",
