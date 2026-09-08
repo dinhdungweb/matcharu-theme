@@ -31,6 +31,7 @@
     <a href="{{ article.url }}">
       {% render 'responsive-image', image: article.image, aspect_ratio: aspect_ratio, custom_ratio: custom_ratio %}
     </a>
+    <span class="blog-card-overlay" aria-hidden="true"></span>
   </div>
   <div class="blos__blog-posts-info {% if post_content_center %} post-content-center {% endif %}">
     {% comment %} {%- if show_category -%}

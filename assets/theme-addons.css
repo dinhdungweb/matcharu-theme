@@ -11,9 +11,23 @@
     color: var(--color-white);
     text-align: left;
     text-transform: uppercase;
+    z-index: 2;
 }
 #bls__blog-container .bls__blog-posts-item {
     position: relative;
+}
+.blog-card-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(
+        to top,
+        rgba(10, 22, 17, 0.82) 0%,
+        rgba(10, 22, 17, 0.52) 32%,
+        rgba(10, 22, 17, 0.14) 60%,
+        transparent 78%
+    );
 }
 .color-white {
     color: white!important;
