@@ -18,6 +18,7 @@
       "blocks": {
         "image_banner_xWnaWi": {
           "type": "image_banner",
+          "disabled": true,
           "settings": {
             "banner_width": "6",
             "banner_type": "image",
@@ -35,6 +36,7 @@
         },
         "image_banner_AkpgH9": {
           "type": "image_banner",
+          "disabled": true,
           "settings": {
             "banner_width": "6",
             "banner_type": "image",
