@@ -27,6 +27,8 @@
           </div>
           <div class="contact-form">
             {% form 'contact' %}
+              <input type="hidden" name="contact[request_type]" value="{% if request.path contains '/collections/oem' %}White label / OEM inquiry{% else %}General inquiry{% endif %}">
+              <input type="hidden" name="contact[source_page]" value="{{ request.path }}">
               {% if form.posted_successfully? %}
                 <p class="success">
                   {{ 'templates.contact.form.page_contact_successs' | t }}
@@ -68,7 +70,7 @@
                   placeholder="{{ 'templates.contact.form.comment' | t }}"
                 ></textarea>
               </div>
-              <div class="save-info mt-20 flex">
+              {% comment %} <div class="save-info mt-20 flex">
                 <div class="checkbox-group relative">
                   <input
                     type="checkbox"
@@ -81,7 +83,7 @@
                 <label for="save-info" class="pointer">
                   {{- 'templates.contact.form.save_info' | t -}}
                 </label>
-              </div>
+              </div> {% endcomment %}
               <div class="form-actions mt-30">
                 <input
                   type="submit"
