@@ -21,14 +21,14 @@
           "settings": {
             "banner_width": "6",
             "banner_type": "image",
-            "image": "shopify://shop_images/Matcharu_5.png",
-            "image_mobile": "shopify://shop_images/Matcharu_5.png",
+            "image": "shopify://shop_images/ChatGPTImage2026_3_21_22_23_48.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_2026_3_21_22_31_07.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Shizuoka",
             "title": "ST23",
-            "content": "<p><br/>Superior Blend Ceremonial Matcha&nbsp;<br/><br/></p>",
+            "content": "<p>Superior Blend Ceremonial Matcha&nbsp;<br/><br/></p>",
             "btn_content": "Shop now",
             "button_type": "link"
           }
@@ -38,14 +38,14 @@
           "settings": {
             "banner_width": "6",
             "banner_type": "image",
-            "image": "shopify://shop_images/Matcharu_4_97262b26-2483-4077-b522-16b483c60067.png",
-            "image_mobile": "shopify://shop_images/Matcharu_4_97262b26-2483-4077-b522-16b483c60067.png",
+            "image": "shopify://shop_images/Matcharu_34_74adf3ec-34fd-4085-86fa-b878c69f5a56.png",
+            "image_mobile": "shopify://shop_images/Matcharu_34_74adf3ec-34fd-4085-86fa-b878c69f5a56.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "",
-            "title": "",
-            "content": "",
+            "subtext": "Uji",
+            "title": "TY28",
+            "content": "<p>Okumidori Blend</p>",
             "btn_content": "Shop now",
             "button_type": "link"
           }
