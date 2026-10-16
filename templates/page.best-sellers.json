@@ -38,14 +38,16 @@
           "settings": {
             "banner_width": "6",
             "banner_type": "image",
+            "image": "shopify://shop_images/Matcharu_4_97262b26-2483-4077-b522-16b483c60067.png",
+            "image_mobile": "shopify://shop_images/Matcharu_4_97262b26-2483-4077-b522-16b483c60067.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Subtext",
-            "title": "Heading",
-            "content": "<p>Description</p>",
+            "subtext": "",
+            "title": "",
+            "content": "",
             "btn_content": "Shop now",
-            "button_type": "primary"
+            "button_type": "link"
           }
         }
       },
