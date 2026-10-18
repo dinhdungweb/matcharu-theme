@@ -316,7 +316,7 @@
       },
       "product_title": "Product",
       "sold_in_last_html": "<span class=\"product-sold\">{{ sold }}</span> sold in last <span class=\"product-hour\">{{ hour }}</span> hours",
-      "sold_out": "Sold out",
+      "sold_out": "Sold out – Restock soon",
       "read_more": "Read more",
       "pre_order": "Pre-order",
       "availability": "Availability",
