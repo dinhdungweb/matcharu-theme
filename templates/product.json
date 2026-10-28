@@ -110,6 +110,12 @@
             "label_quantity_product_information": false
           }
         },
+        "custom_liquid_axM7aH": {
+          "type": "custom_liquid",
+          "settings": {
+            "content": "{% assign t = product.title | upcase %}\n{% if t contains 'HOJICHA' and t contains '500G' %}\n<p style=\"margin:10px 0 0;font-size:14px;\">New to Matcharu? <a href=\"/products/premium-hojicha-sample-try-before-you-buy-30g-1-05oz\" style=\"text-decoration:underline;font-weight:600;\">Try our 30g Hojicha Sample ($11.99) first →</a></p>\n{% elsif t contains '1KG' or t contains '1000G' or t contains '500G' %}\n<p style=\"margin:10px 0 0;font-size:14px;\">New to Matcharu? <a href=\"/products/matcha-sample-50g-bag\" style=\"text-decoration:underline;font-weight:600;\">Try our Wholesale Sample Pack ($25) first →</a></p>\n{% endif %}"
+          }
+        },
         "fb4d791a-e332-4dc8-b188-114a9e802869": {
           "type": "pickup_availability",
           "settings": {}
@@ -160,6 +166,7 @@
         "f98b666a-7c37-41ed-be7b-4a28f4a1e8b4",
         "7a9d9ec8-61e0-4f46-a64e-44ff2080906e",
         "37f20969-8bae-47ff-89e1-b0be3169e19a",
+        "custom_liquid_axM7aH",
         "fb4d791a-e332-4dc8-b188-114a9e802869",
         "c772ce81-4aa5-415d-8939-631c6d4897ff",
         "84ae25d8-caaa-414c-b983-91812f8c5046",
