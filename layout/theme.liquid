@@ -93,6 +93,21 @@
         });
       </script>
     {% endif %}
+  <script>
+(function(){
+  try {
+    var p = new URLSearchParams(location.search);
+    var hasAd = p.get('utm_source') || p.get('gclid');
+    var ref = document.referrer && document.referrer.indexOf(location.hostname) === -1 ? document.referrer : '';
+    if (hasAd || (ref && !localStorage.getItem('mr_lead_src'))) {
+      var src = hasAd
+        ? (p.get('utm_source') || 'google') + ' / ' + (p.get('utm_medium') || 'cpc') + (p.get('utm_term') ? ' / kw: ' + p.get('utm_term') : '')
+        : 'referrer: ' + ref.split('/')[2];
+      localStorage.setItem('mr_lead_src', src + ' / landed ' + location.pathname + ' on ' + new Date().toISOString().slice(0,10));
+    }
+  } catch(e) {}
+})();
+</script>
   </head>
   <body class="gradient {% if template.name == 'collection' %}template-collection{% endif %}{% if template.name == 'product' %}template-product {% endif %}{% if template.name == 'index' %}template-index{% endif %} {%- if settings.general_layout == 'boxed' -%}box-layout{% elsif settings.general_layout == 'full_width' %}full-width-layout{% else %}{%- endif -%} {% if settings.content_center %}item-center{% endif %} {% if settings.image_style != blank %}product-images-style-radius{% endif %} {% if template.suffix contains 'layout-2' %}product-digital-layout-2{% endif %}">
     <div class="bls-wrapper">
