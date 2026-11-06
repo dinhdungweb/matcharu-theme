@@ -29,6 +29,15 @@
             {% form 'contact' %}
               <input type="hidden" name="contact[request_type]" value="{% if request.path contains '/collections/oem' %}White label / OEM inquiry{% else %}General inquiry{% endif %}">
               <input type="hidden" name="contact[source_page]" value="{{ request.path }}">
+              <input type="hidden" name="contact[lead_source]" class="js-lead-source" value="direct / unknown">
+<script>
+(function(){
+  try {
+    var v = localStorage.getItem('mr_lead_src') || 'direct / unknown';
+    document.querySelectorAll('.js-lead-source').forEach(function(i){ i.value = v; });
+  } catch(e) {}
+})();
+</script>
               {% if form.posted_successfully? %}
                 <p class="success">
                   {{ 'templates.contact.form.page_contact_successs' | t }}
