@@ -48,6 +48,15 @@
     <div class="wholesale-inquiry__form-panel">
       {%- form 'contact', id: form_id, class: 'wholesale-inquiry__form' -%}
         <input type="hidden" name="contact[request_type]" value="Wholesale inquiry">
+        <input type="hidden" name="contact[lead_source]" class="js-lead-source" value="direct / unknown">
+<script>
+(function(){
+  try {
+    var v = localStorage.getItem('mr_lead_src') || 'direct / unknown';
+    document.querySelectorAll('.js-lead-source').forEach(function(i){ i.value = v; });
+  } catch(e) {}
+})();
+</script>
 
         {%- if form.posted_successfully? -%}
           <div class="wholesale-inquiry__message wholesale-inquiry__message--success" role="status" tabindex="-1">
